@@ -4,9 +4,9 @@ import ProyectosPage from "../ProyectosPage";
 function Fanzine() {
   const proyectos = [
     {
-      nombre: "SATURNO Y LAS IDEAS",
+      nombre: "SATURNINO Y LAS IDEAS",
       descripcion: "",
-      imagen: "/proyectos/fanzine/saturno-y-las-ideas.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "/proyectos/fanzine/saturno-y-las-ideas.jpg"
     },
   ];
 
