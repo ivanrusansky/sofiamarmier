@@ -6,17 +6,17 @@ function Posters() {
     {
       nombre: "BASTRO",
       descripcion: "",
-      imagen: "/proyectos/posters/bastro.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "/proyectos/posters/bastro.jpg"
     },
     {
       nombre: "EL MATO - NOCHE NEGRA",
       descripcion: "",
-      imagen: "/proyectos/posters/el-mato-noche-negra.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "/proyectos/posters/el-mato-noche-negra.jpg"
     },
     {
       nombre: "INDIO SOLARI TANDIL",
       descripcion: "",
-      imagen: "/proyectos/posters/indio-solari-tandil.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "/proyectos/posters/indio-solari-tandil.jpg"
     },
   ];
   return (

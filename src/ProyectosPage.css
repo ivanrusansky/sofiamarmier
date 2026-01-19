@@ -92,16 +92,16 @@
   .proyectos-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .proyectos-titulo {
     font-size: 4rem;
     margin-left: 1rem;
   }
-  
+
   .proyecto-info h3 {
     font-size: 2rem;
   }
-  
+
   .proyecto-info p {
     font-size: 1.2rem;
   }

@@ -6,12 +6,12 @@ function SesionesEnVivo() {
     {
       nombre: "BABEBLADE",
       descripcion: "",
-      imagen: "/babeblade.png" // Imagen directa desde Google Drive
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1BL7Q06zVLXcqGGfiaIE_DPkE4TrnthWD"
     },
     {
       nombre: "VON FRIX",
       descripcion: "",
-      imagen: "/von frix.png" // Cambia la ruta cuando tengas la imagen real
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1xAN9t46LyLFoGo1b74WGaWmR9BuWKIyi"
     },
   ];
   return (

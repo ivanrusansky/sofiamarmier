@@ -21,7 +21,11 @@ function ProyectosPage({ categoria, titulo, proyectos, colorHover }) {
           {proyectos.map((proyecto, index) => (
             <div key={index} className="proyecto-item" style={{ '--hover-color': colorHover }}>
               <div className="proyecto-imagen">
-                <img src={proyecto.imagen} alt={proyecto.nombre} />
+                <img 
+                  src={proyecto.imagen} 
+                  alt={proyecto.nombre}
+                  onError={(e) => { e.target.src = 'https://via.placeholder.com/400x300?text=Sin+Imagen'; }}
+                />
               </div>
               <div className="proyecto-info">
                 <h3>{proyecto.nombre}</h3>

@@ -34,7 +34,7 @@ function Index() {
               DISEÑO GRÁFICO
               <span style={{ fontSize: '2rem', marginLeft: '1rem', verticalAlign: 'middle' }}>{subMenuOpen ? '▲' : '▼'}</span>
             </a>
-            
+
             {subMenuOpen && (
               <>
                 <div className="submenu-divider"></div>
@@ -90,7 +90,7 @@ function Index() {
                   <span className="submenu-number">#02</span>
                 </a>
                 <div className="submenu-divider"></div>
-                <a href="/fotografia/gravaciones" className="submenu-item photo-sub">
+                <a href="/fotografia/grabaciones" className="submenu-item photo-sub">
                   <span>GRABACIONES</span>
                   <span className="submenu-number">#03</span>
                 </a>

@@ -6,22 +6,22 @@ function Indumentaria() {
     {
       nombre: "IMP SALE OTOÑO",
       descripcion: "",
-      imagen: "/proyectos/indumentaria/imp-sale-otono.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1bx-SSsBe1RXi55uaybQhQPf1PBnKFtvK"
     },
     {
       nombre: "IMP SALE PRIMAVERA",
       descripcion: "",
-      imagen: "/proyectos/indumentaria/imp-sale-primavera.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "/proyectos/indumentaria/imp-sale-primavera.jpg"
     },
     {
-      nombre: "JULIANA FAVIO",
+      nombre: "JULIANA FAYAD",
       descripcion: "",
-      imagen: "/proyectos/indumentaria/juliana-favio.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1IJT2DLqGXE1gbQXAY6Oqq7btm4oGga2-"
     },
     {
       nombre: "MICHEL",
       descripcion: "",
-      imagen: "/proyectos/indumentaria/michel.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1fFcJulkLCIzbpBmoW4bP3Yb2xZhnIvZH"
     },
   ];
   return (

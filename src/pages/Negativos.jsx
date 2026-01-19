@@ -6,12 +6,12 @@ function Negativos() {
     {
       nombre: "BLANCO Y NEGRO",
       descripcion: "",
-      imagen: "/proyectos/negativos/blanco-y-negro.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1bFX66pWo13piH3szUbqqcEtekBYVtl9g"
     },
     {
       nombre: "COLOR",
       descripcion: "",
-      imagen: "/proyectos/negativos/color.jpg" // Cambia la ruta cuando tengas la imagen real
+      imagen: "https://lh3.googleusercontent.com/u/0/d/14TQzvvpozfZwN7d_uklfMjW-FooShXMb"
     },
   ];
   return (
