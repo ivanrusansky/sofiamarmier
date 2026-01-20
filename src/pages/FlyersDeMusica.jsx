@@ -10,7 +10,7 @@ function FlyersDeMusica() {
     { nombre: "brooks y viuda federal", descripcion: "", imagen: "/flyers_de_musica/brooks_y_viuda_federal/visualizador_1_jpg" },
     { nombre: "brooks daltonica y hormigas fc", descripcion: "", imagen: "/flyers_de_musica/brooks_daltonica_y_hormigas_fc/pag_1" },
     { nombre: "daltonica kavala y grela", descripcion: "", imagen: "/flyers_de_musica/daltonica_kavala_y_grela/flyers_3_jpg" },
-    { nombre: "diadema", descripcion: "", imagen: "/flyers_de_musica/DIADEMA/flyer_animado_mp4" },
+    { nombre: "diadema", descripcion: "", imagen: "/flyers_de_musica/DIADEMA/flyer_animado_mp4", sinImagen: true },
     { nombre: "hilario proserpio", descripcion: "", imagen: "/flyers_de_musica/hilario_proserpio/flyer_jpg" },
     { nombre: "jeremias marful hilario proserpio y saturnino y las ideas", descripcion: "", imagen: "/flyers_de_musica/jeremias_marful_hilario_proserpio_y_saturnino_y_las_ideas/pag_1" },
     { nombre: "santiago leavy quinteto", descripcion: "", imagen: "/flyers_de_musica/santiago_leavy_quinteto/flyer_jpg" },

@@ -13,26 +13,31 @@ function ProyectosPage({ categoria, titulo, proyectos, colorHover }) {
           </li>
         </ul>
       </nav>
-      
+
       <div className="proyectos-container">
         <h1 className="proyectos-titulo">{titulo}</h1>
-        
+
         <div className="proyectos-grid">
-          {proyectos.map((proyecto, index) => (
-            <div key={index} className="proyecto-item" style={{ '--hover-color': colorHover }}>
-              <div className="proyecto-imagen">
-                <img 
-                  src={proyecto.imagen} 
-                  alt={proyecto.nombre}
-                  onError={(e) => { e.target.src = 'https://via.placeholder.com/400x300?text=Sin+Imagen'; }}
-                />
+          {proyectos.map((proyecto, index) => {
+
+            if (proyecto.sinImagen) return null;
+
+            return (
+              <div key={index} className="proyecto-item" style={{ '--hover-color': colorHover }}>
+                <div className="proyecto-imagen">
+                  <img
+                    src={proyecto.imagen}
+                    alt={proyecto.nombre}
+                    onError={(e) => { e.target.style.display = 'none'; }}
+                  />
+                </div>
+                <div className="proyecto-info">
+                  <h3>{proyecto.nombre}</h3>
+                  <p>{proyecto.descripcion}</p>
+                </div>
               </div>
-              <div className="proyecto-info">
-                <h3>{proyecto.nombre}</h3>
-                <p>{proyecto.descripcion}</p>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </>

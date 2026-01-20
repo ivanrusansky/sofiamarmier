@@ -6,7 +6,8 @@ function ShowsEnVivo() {
     {
       nombre: "BROCKS",
       descripcion: "",
-      imagen: "/proyectos/shows-en-vivo/brocks.jpg"
+      imagen: "/proyectos/shows-en-vivo/brocks.jpg",
+      sinImagen: true
     },
     {
       nombre: "HILARIO PROSERPIO",
@@ -16,17 +17,20 @@ function ShowsEnVivo() {
     {
       nombre: "RESBALADIZOS",
       descripcion: "",
-      imagen: "/proyectos/shows-en-vivo/resbaladizos.jpg"
+      imagen: "/proyectos/shows-en-vivo/resbaladizos.jpg",
+      sinImagen: true
     },
     {
       nombre: "SAD POP CLUB",
       descripcion: "",
-      imagen: "/proyectos/shows-en-vivo/sad-pop-club.jpg"
+      imagen: "/proyectos/shows-en-vivo/sad-pop-club.jpg",
+      sinImagen: true
     },
     {
       nombre: "VIUDA FEDERAL",
       descripcion: "",
-      imagen: "/proyectos/shows-en-vivo/viuda-federal.jpg"
+      imagen: "/proyectos/shows-en-vivo/viuda-federal.jpg",
+      sinImagen: true
     },
   ];
   return (

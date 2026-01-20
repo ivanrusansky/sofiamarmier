@@ -31,8 +31,8 @@ function Index() {
                 setSubMenuOpen(!subMenuOpen);
               }}
             >
-              DISEÑO GRÁFICO
-              <span style={{ fontSize: '2rem', marginLeft: '1rem', verticalAlign: 'middle' }}>{subMenuOpen ? '▲' : '▼'}</span>
+              <span>DISEÑO GRÁFICO</span>
+              <span className="menu-arrow">{subMenuOpen ? '▲' : '▼'}</span>
             </a>
 
             {subMenuOpen && (
@@ -74,8 +74,8 @@ function Index() {
                 setPhotoMenuOpen(!photoMenuOpen);
               }}
             >
-              FOTOGRAFÍA
-              <span style={{ fontSize: '2rem', marginLeft: '1rem', verticalAlign: 'middle' }}>{photoMenuOpen ? '▲' : '▼'}</span>
+              <span>FOTOGRAFÍA</span>
+              <span className="menu-arrow">{photoMenuOpen ? '▲' : '▼'}</span>
             </a>
             {photoMenuOpen && (
               <>
@@ -126,8 +126,8 @@ function Index() {
                 setAudioMenuOpen(!audioMenuOpen);
               }}
             >
-              AUDIOVISUAL
-              <span style={{ fontSize: '2rem', marginLeft: '1rem', verticalAlign: 'middle' }}>{audioMenuOpen ? '▲' : '▼'}</span>
+              <span>AUDIOVISUAL</span>
+              <span className="menu-arrow">{audioMenuOpen ? '▲' : '▼'}</span>
             </a>
             {audioMenuOpen && (
               <>
@@ -147,9 +147,9 @@ function Index() {
           </div>
         </div>
       )}
-      <div className="image-container">
+      {/* <div className="image-container">
         <img src="/logo png.png" alt="Background" className="background-image" />
-      </div>
+      </div> */}
       <div className="video-container">
         <video src="/logo.mp4" className="background-video" autoPlay muted loop></video>
       </div>

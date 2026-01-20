@@ -16,7 +16,8 @@ function Grabaciones() {
     {
       nombre: "CRISÁ, LA CASONA",
       descripcion: "",
-      imagen: "/proyectos/grabaciones/crisa-la-casona.jpg"
+      imagen: "/proyectos/grabaciones/crisa-la-casona.jpg",
+      sinImagen: true
     },
     {
       nombre: "SATURNINOO Y LAS IDEAS, MAGDALENA SOUND",

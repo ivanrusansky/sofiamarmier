@@ -9,11 +9,6 @@ function Indumentaria() {
       imagen: "https://lh3.googleusercontent.com/u/0/d/1bx-SSsBe1RXi55uaybQhQPf1PBnKFtvK"
     },
     {
-      nombre: "IMP SALE PRIMAVERA",
-      descripcion: "",
-      imagen: "/proyectos/indumentaria/imp-sale-primavera.jpg"
-    },
-    {
       nombre: "JULIANA FAYAD",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/u/0/d/1IJT2DLqGXE1gbQXAY6Oqq7btm4oGga2-"

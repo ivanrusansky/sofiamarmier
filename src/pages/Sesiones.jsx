@@ -11,12 +11,12 @@ function Sesiones() {
     {
       nombre: "CRISÁ 2023",
       descripcion: "",
-      imagen: "https://lh3.googleusercontent.com/u/0/d/1iJB_lUrj4bcPyAkuxv_na7-tukc__FgY" // Imagen directa desde Google Drive (formato googleusercontent)
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1iJB_lUrj4bcPyAkuxv_na7-tukc__FgY"
     },
     {
       nombre: "CRISÁ 2025",
       descripcion: "",
-      imagen: "https://lh3.googleusercontent.com/u/0/d/1H4AfMde95tzlnJxr7N9iquy0HPaaP9c6" // Imagen directa desde Google Drive (formato googleusercontent)
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1H4AfMde95tzlnJxr7N9iquy0HPaaP9c6"
     },
     {
       nombre: "GAIA",

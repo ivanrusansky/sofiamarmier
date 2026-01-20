@@ -29,13 +29,33 @@ body {
   min-height: 100vh;
   background: #fff;
   color: #222;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   background: #fff;
   color: #222;
   padding: 0.8rem 0;
@@ -44,24 +64,48 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .navbar-brand {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   font-weight: 600;
   margin-left: 2.5rem;
   letter-spacing: 1px;
   color: #222;
 }
 
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 0 1rem 0 0;
+  padding: 1%;
+  font-size: 0.9rem;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-right: 0.7rem;
+}
+
+.navbar ul li:last-child {
+  margin-right: 1.2rem;
+}
+
+.navbar ul {
+  padding-left: 0;
+}
+
 .fullscreen-menu {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 999;
   display: flex;
@@ -70,6 +114,7 @@ body {
   padding-top: 8rem;
   animation: fadeIn 0.3s ease;
   overflow-y: auto;
+  overflow-x: hidden;
   max-height: 100vh;
   box-sizing: border-box;
 }
@@ -103,150 +148,186 @@ body {
   letter-spacing: 2px;
   margin-bottom: 3rem;
   filter: blur(0.5px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
 }
 
 .menu-item:hover {
   color: #8a8a8a;
-
 }
 
-
-.inicio-container {
-  margin-top: 60px;
-  background: #ffffff3f;
-  color: #222;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  gap: 2rem;
-  margin: 0 2.5rem 0 0;
-  padding: 1%;
-}
-
-.navbar a {
-  color: #222;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: color 0.2s;
-}
-
-.navbar a:hover {
-  color: #7a7a7a;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-
-button:hover {
-  border-color: #a8a8a8;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-/* video index */
-.video-container {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin-top: 60px;
-
-}
-
-.background-video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-.image-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background-color: #fff;
-
-}
-
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-
-}
-
-.navbar,
-.navbar * {
-  font-family: 'Satoshi', system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+.menu-arrow,
+.submenu-item .menu-arrow,
+.menu-item .menu-arrow {
+  font-size: 1.5rem !important;
 }
 
 .submenu-item {
-  color: #222;
+  color: #383838;
   text-decoration: none;
-  font-size: 2.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;
   transition: color 0.2s;
-  padding: 2rem 2rem;
+  padding: 2rem 1.5rem;
   margin-left: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   animation: slideIn 0.3s ease;
   border: none;
   box-sizing: border-box;
+  filter: blur(0.4px);
 }
 
 .submenu-item:hover {
-  color: #f0ec10;
+  color: #c4a312;
 }
 
 .submenu-item.photo-sub:hover {
-  color: #00c853;
+  color: #4b9b6c;
 }
 
 .submenu-item.audio-sub:hover {
-  color: #e53935;
+  color: #8b2b29;
 }
 
 .submenu-number {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: inherit;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  min-width: 3ch;
 }
 
 .submenu-divider {
-  width: 100vw;
-  margin-left: 0;
+  width: 104%;
+  margin: -1.2rem;
   height: 3px;
-  background: #b0b0b0;
+  background: #38383883;
   border: none;
   animation: slideIn 0.3s ease;
-  filter: blur(1px);
+  filter: blur(0.78px);
+  box-sizing: border-box;
+}
+
+/* Logo index - desktop */
+.background-image {
+  max-width: 420px;
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 0.95;
+}
+
+/* Ajuste video logo index */
+.video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.background-video {
+  max-width: 420px;
+  width: 40vw;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  opacity: 0.97;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    min-height: 48px;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
+
+  .navbar ul {
+    gap: 1rem;
+    margin: 0 1rem 0 0;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+
+  .fullscreen-menu {
+    padding-top: 4rem;
+  }
+
+  .menu-content {
+    gap: 0;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .menu-item {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: 1px;
+    padding: 0.5rem 0;
+  }
+
+  .submenu-item {
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .submenu-number {
+    font-size: 1.3rem;
+  }
+
+  .submenu-divider {
+    width: 106%;
+    height: 2px;
+    margin-top: 0.6%;
+    margin-bottom: 0.6%;
+  }
+
+  .background-image {
+    max-width: 90vw;
+    width: 90vw;
+    height: auto;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+
+  .background-video {
+    max-width: 90vw;
+    width: 90vw;
+    height: auto;
+    opacity: 1;
+  }
 }

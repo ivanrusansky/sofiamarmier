@@ -6,27 +6,32 @@ function Tapas() {
     {
       nombre: "BASTRO",
       descripcion: "",
-      imagen: "/proyectos/tapas/bastro.jpg"
+      imagen: "/proyectos/tapas/bastro.jpg",
+      sinImagen: true
     },
     {
       nombre: "BROCKS",
       descripcion: "",
-      imagen: "/proyectos/tapas/brocks.jpg"
+      imagen: "/proyectos/tapas/brocks.jpg",
+      sinImagen: true
     },
     {
       nombre: "SANTIAGO LEAVY",
       descripcion: "",
-      imagen: "/proyectos/tapas/santiago-leavy.jpg"
+      imagen: "/proyectos/tapas/santiago-leavy.jpg",
+      sinImagen: true
     },
     {
       nombre: "SATURNO Y LAS IDEAS",
       descripcion: "",
-      imagen: "/proyectos/tapas/saturno-y-las-ideas.jpg"
+      imagen: "/proyectos/tapas/saturno-y-las-ideas.jpg",
+      sinImagen: true
     },
     {
       nombre: "VIUDA FEDERAL",
       descripcion: "",
-      imagen: "/proyectos/tapas/viuda-federal.jpg"
+      imagen: "/proyectos/tapas/viuda-federal.jpg",
+      sinImagen: true
     },
   ];
   return (
