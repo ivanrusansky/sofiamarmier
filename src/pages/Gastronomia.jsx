@@ -6,12 +6,14 @@ function Gastronomia() {
     {
       nombre: "BARRIO CAFÉ",
       descripcion: "",
-      imagen: "https://lh3.googleusercontent.com/u/0/d/1_vi5X9oeimvx91xO7EZDvacrBpq0eezN"
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1_vi5X9oeimvx91xO7EZDvacrBpq0eezN",
+      ruta: "/trabajo/barrio-cafe"
     },
     {
       nombre: "VINERA VINOS",
       descripcion: "",
-      imagen: "https://lh3.googleusercontent.com/u/0/d/1MJHikRUxX5dzUhAmaUE9WtNR-kz4maJH"
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1MJHikRUxX5dzUhAmaUE9WtNR-kz4maJH",
+      ruta: "/trabajo/vinera-vinos"
     },
   ];
   return (

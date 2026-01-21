@@ -7,7 +7,8 @@ function Fanzine() {
       nombre: "SATURNINO Y LAS IDEAS",
       descripcion: "",
       imagen: "/proyectos/fanzine/saturno-y-las-ideas.jpg",
-      sinImagen: true
+      sinImagen: true,
+      ruta: "/trabajo/fanzine-saturnino-y-las-ideas"
     },
   ];
 

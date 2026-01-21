@@ -6,12 +6,14 @@ function SesionesEnVivo() {
     {
       nombre: "BABEBLADE",
       descripcion: "",
-      imagen: "https://lh3.googleusercontent.com/u/0/d/1BL7Q06zVLXcqGGfiaIE_DPkE4TrnthWD"
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1BL7Q06zVLXcqGGfiaIE_DPkE4TrnthWD",
+      ruta: "/trabajo/babeblade"
     },
     {
       nombre: "VON FRIX",
       descripcion: "",
-      imagen: "https://lh3.googleusercontent.com/u/0/d/1xAN9t46LyLFoGo1b74WGaWmR9BuWKIyi"
+      imagen: "https://lh3.googleusercontent.com/u/0/d/1xAN9t46LyLFoGo1b74WGaWmR9BuWKIyi",
+      ruta: "/trabajo/von-frix-sesion"
     },
   ];
   return (

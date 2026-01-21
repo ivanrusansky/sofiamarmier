@@ -1,0 +1,26 @@
+import React from "react";
+import TrabajosPage from "../TrabajosPage";
+
+function SantiagoLeavyQuinteto() {
+  const trabajo = {
+    imagenes: [
+      "/flyers_de_musica/santiago_leavy_quinteto/flyer_jpg"
+    ],
+    descripcion: "Flyer para Santiago Leavy Quinteto",
+    cliente: "Santiago Leavy Quinteto",
+    año: "2024",
+    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+  };
+
+  return (
+    <TrabajosPage
+      categoria="diseño gráfico"
+      titulo="SANTIAGO LEAVY QUINTETO"
+      trabajo={trabajo}
+      colorHover="#f0ec10"
+      rutaVolver="/diseno-grafico/flyers-de-musica"
+    />
+  );
+}
+
+export default SantiagoLeavyQuinteto;

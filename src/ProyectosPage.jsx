@@ -23,7 +23,12 @@ function ProyectosPage({ categoria, titulo, proyectos, colorHover }) {
             if (proyecto.sinImagen) return null;
 
             return (
-              <div key={index} className="proyecto-item" style={{ '--hover-color': colorHover }}>
+              <Link 
+                key={index} 
+                to={proyecto.ruta || '#'} 
+                className="proyecto-item" 
+                style={{ '--hover-color': colorHover }}
+              >
                 <div className="proyecto-imagen">
                   <img
                     src={proyecto.imagen}
@@ -35,7 +40,7 @@ function ProyectosPage({ categoria, titulo, proyectos, colorHover }) {
                   <h3>{proyecto.nombre}</h3>
                   <p>{proyecto.descripcion}</p>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>

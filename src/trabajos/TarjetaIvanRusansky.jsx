@@ -1,0 +1,26 @@
+import React from "react";
+import TrabajosPage from "../TrabajosPage";
+
+function TarjetaIvanRusansky() {
+  const trabajo = {
+    imagenes: [
+      "/proyectos/tarjetas/ivan-rusansky.jpg"
+    ],
+    descripcion: "Diseño de tarjeta personal para Iván Rusansky",
+    cliente: "Iván Rusansky",
+    año: "2024",
+    tecnicas: ["Diseño gráfico", "Diseño de identidad"]
+  };
+
+  return (
+    <TrabajosPage
+      categoria="diseño gráfico"
+      titulo="IVÁN RUSANSKY"
+      trabajo={trabajo}
+      colorHover="#f0ec10"
+      rutaVolver="/diseno-grafico/tarjetas"
+    />
+  );
+}
+
+export default TarjetaIvanRusansky;

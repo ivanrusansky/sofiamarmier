@@ -7,13 +7,15 @@ function Tarjetas() {
       nombre: "IVÁN RUSANSKY",
       descripcion: "",
       imagen: "/proyectos/tarjetas/ivan-rusansky.jpg",
-      sinImagen: true
+      sinImagen: true,
+      ruta: "/trabajo/tarjeta-ivan-rusansky"
     },
     {
       nombre: "MARTINA CANO",
       descripcion: "",
       imagen: "/proyectos/tarjetas/martina-cano.jpg",
-      sinImagen: true
+      sinImagen: true,
+      ruta: "/trabajo/tarjeta-martina-cano"
     },
   ];
   return (
