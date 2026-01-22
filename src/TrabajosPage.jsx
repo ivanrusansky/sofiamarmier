@@ -76,7 +76,7 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
 
         <div className="trabajo-footer">
           <Link to={rutaVolver} className="btn-volver" style={{ '--hover-color': colorHover }}>
-            ← VOLVER A {categoria.toUpperCase()}
+            ← volver a {categoria.toUpperCase()}
           </Link>
         </div>
       </div>

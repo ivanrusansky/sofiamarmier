@@ -17,7 +17,7 @@ function FanzineSaturninoYLasIdeas() {
       categoria="diseño gráfico"
       titulo="SATURNINO Y LAS IDEAS"
       trabajo={trabajo}
-      colorHover="#f0ec10"
+      colorHover="#c4a312"
       rutaVolver="/diseno-grafico/fanzine"
     />
   );

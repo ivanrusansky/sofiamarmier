@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Gastronomia() {
@@ -17,7 +17,7 @@ function Gastronomia() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="GASTRONOMÍA" proyectos={proyectos} colorHover="#00c853" />
+    <ProyectosPage categoria="fotografía" titulo="GASTRONOMÍA" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Gastronomia;

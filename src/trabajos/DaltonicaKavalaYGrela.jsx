@@ -17,7 +17,7 @@ function DaltonicaKavalaYGrela() {
       categoria="diseño gráfico"
       titulo="DALTÓNICA KAVALA Y GRELA"
       trabajo={trabajo}
-      colorHover="#f0ec10"
+      colorHover="#c4a312"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

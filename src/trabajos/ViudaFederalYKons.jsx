@@ -17,7 +17,7 @@ function ViudaFederalYKons() {
       categoria="diseño gráfico"
       titulo="VIUDA FEDERAL Y KONS"
       trabajo={trabajo}
-      colorHover="#f0ec10"
+      colorHover="#c4a312"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

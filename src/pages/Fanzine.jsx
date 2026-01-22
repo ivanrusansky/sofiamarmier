@@ -17,7 +17,7 @@ function Fanzine() {
       categoria="diseño gráfico"
       titulo="FANZINE"
       proyectos={proyectos}
-      colorHover="#f0ec10"
+      colorHover="#c4a312"
     />
   );
 }

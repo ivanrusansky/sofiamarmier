@@ -19,7 +19,7 @@ function Tarjetas() {
     },
   ];
   return (
-    <ProyectosPage categoria="diseño gráfico" titulo="TARJETAS" proyectos={proyectos} colorHover="#f0ec10" />
+    <ProyectosPage categoria="diseño gráfico" titulo="TARJETAS" proyectos={proyectos} colorHover="#c4a312" />
   );
 }
 export default Tarjetas;

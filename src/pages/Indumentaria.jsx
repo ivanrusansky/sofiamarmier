@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Indumentaria() {
@@ -23,7 +23,7 @@ function Indumentaria() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="INDUMENTARIA" proyectos={proyectos} colorHover="#00c853" />
+    <ProyectosPage categoria="fotografía" titulo="INDUMENTARIA" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Indumentaria;

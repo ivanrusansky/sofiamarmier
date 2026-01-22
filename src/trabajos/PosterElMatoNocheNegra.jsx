@@ -17,7 +17,7 @@ function PosterElMatoNocheNegra() {
       categoria="diseño gráfico"
       titulo="EL MATO - NOCHE NEGRA"
       trabajo={trabajo}
-      colorHover="#f0ec10"
+      colorHover="#c4a312"
       rutaVolver="/diseno-grafico/posters"
     />
   );

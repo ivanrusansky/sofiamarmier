@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function NegativosColor() {
@@ -16,7 +16,7 @@ function NegativosColor() {
       categoria="fotografía"
       titulo="COLOR"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#4b9b6c"
       rutaVolver="/fotografia/negativos"
     />
   );

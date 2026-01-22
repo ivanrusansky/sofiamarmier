@@ -40,7 +40,7 @@ function Tapas() {
     },
   ];
   return (
-    <ProyectosPage categoria="diseño gráfico" titulo="TAPAS" proyectos={proyectos} colorHover="#f0ec10" />
+    <ProyectosPage categoria="diseño gráfico" titulo="TAPAS" proyectos={proyectos} colorHover="#c4a312" />
   );
 }
 export default Tapas;

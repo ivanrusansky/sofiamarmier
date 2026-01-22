@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function ViudaFederalEstudiosIon() {
@@ -17,7 +17,7 @@ function ViudaFederalEstudiosIon() {
       categoria="fotografía"
       titulo="VIUDA FEDERAL, ESTUDIOS ION"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#4b9b6c"
       rutaVolver="/fotografia/grabaciones"
     />
   );

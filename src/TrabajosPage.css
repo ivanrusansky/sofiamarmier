@@ -45,7 +45,6 @@
 .trabajo-imagen-wrapper {
   width: 100%;
   overflow: hidden;
-  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -136,26 +135,30 @@
 
 /* Botón volver */
 .btn-volver {
-  display: inline-block;
-  padding: 1rem 2rem;
+  display: block;
+  width: 100vw;
+  margin: 0;
+  padding: 1rem 0;
   background: transparent;
-  color: inherit;
+  color:#dfdfdf;
+  background-color: #000;
   text-decoration: none;
-  border: 2px solid currentColor;
-  border-radius: 4px;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
+  position: relative;
+  left: 50%;
+  right: 0;
+  transform: translateX(-50%);
+  box-sizing: border-box;
 }
 
 .btn-volver:hover {
   background: var(--hover-color, #fff);
-  color: #000;
+  color: #f0f0f0;
   border-color: var(--hover-color, #fff);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {

@@ -17,7 +17,7 @@ function SofiaPereyraIrinaSofaZilaYOliCuan() {
       categoria="diseño gráfico"
       titulo="SOFÍA PEREYRA IRINA SOFA ZILA Y OLI CUÁN"
       trabajo={trabajo}
-      colorHover="#f0ec10"
+      colorHover="#c4a312"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

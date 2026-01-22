@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Vivo() {
@@ -22,7 +22,7 @@ function Vivo() {
         { nombre: "VON FRIX  CAMPING", descripcion: "", imagen: "https://lh3.googleusercontent.com/d/11m0O7wYjmXuP-2YUWCojxS7a2DsYBFyN=w1000", ruta: "/trabajo/von-frix-camping" },
     ];
     return (
-        <ProyectosPage categoria="fotografía" titulo="VIVO" proyectos={proyectos} colorHover="#00c853" />
+        <ProyectosPage categoria="fotografía" titulo="VIVO" proyectos={proyectos} colorHover="#4b9b6c" />
     );
 }
 export default Vivo;

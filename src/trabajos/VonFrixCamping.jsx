@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function VonFrixCamping() {
@@ -17,7 +17,7 @@ function VonFrixCamping() {
       categoria="fotografía"
       titulo="VON FRIX CAMPING"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#4b9b6c"
       rutaVolver="/fotografia/vivo"
     />
   );

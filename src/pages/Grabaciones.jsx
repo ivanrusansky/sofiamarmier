@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Grabaciones() {
@@ -42,7 +42,7 @@ function Grabaciones() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="GRABACIONES" proyectos={proyectos} colorHover="#00c853" />
+    <ProyectosPage categoria="fotografía" titulo="GRABACIONES" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Grabaciones;

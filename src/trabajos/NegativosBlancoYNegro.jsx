@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function NegativosBlancoYNegro() {
@@ -16,7 +16,7 @@ function NegativosBlancoYNegro() {
       categoria="fotografía"
       titulo="BLANCO Y NEGRO"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#4b9b6c"
       rutaVolver="/fotografia/negativos"
     />
   );

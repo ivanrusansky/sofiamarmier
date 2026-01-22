@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Index.css";
+import "./index.css";
 
 function Index() {
   const [dropdownOpen, setDropdownOpen] = useState(false);

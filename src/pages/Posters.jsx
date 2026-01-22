@@ -26,7 +26,7 @@ function Posters() {
     },
   ];
   return (
-    <ProyectosPage categoria="diseño gráfico" titulo="POSTERS" proyectos={proyectos} colorHover="#f0ec10" />
+    <ProyectosPage categoria="diseño gráfico" titulo="POSTERS" proyectos={proyectos} colorHover="#c4a312" />
   );
 }
 export default Posters;

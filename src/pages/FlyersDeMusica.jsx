@@ -28,7 +28,7 @@ function FlyersDeMusica() {
     { nombre: "vol5 ciclo vida rnr", descripcion: "", imagen: "/flyers_de_musica/vol_5_ciclo_vida_rnr/feed_jpg", ruta: "/trabajo/vol5-ciclo-vida-rnr" },
   ];
   return (
-    <ProyectosPage categoria="diseño gráfico" titulo="FLYERS DE MÚSICA" proyectos={proyectos} colorHover="#f0ec10" />
+    <ProyectosPage categoria="diseño gráfico" titulo="FLYERS DE MÚSICA" proyectos={proyectos} colorHover="#c4a312" />
   );
 }
 export default FlyersDeMusica;

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function ViudaFederalSala41() {
@@ -17,7 +17,7 @@ function ViudaFederalSala41() {
       categoria="fotografía"
       titulo="VIUDA FEDERAL SALA 41"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#4b9b6c"
       rutaVolver="/fotografia/vivo"
     />
   );

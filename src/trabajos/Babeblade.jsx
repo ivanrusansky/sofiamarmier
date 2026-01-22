@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function Babeblade() {
@@ -17,7 +17,7 @@ function Babeblade() {
       categoria="audiovisual"
       titulo="BABEBLADE"
       trabajo={trabajo}
-      colorHover="#e53935"
+      colorHover="#8b2b29"
       rutaVolver="/audiovisual/sesiones-en-vivo"
     />
   );
