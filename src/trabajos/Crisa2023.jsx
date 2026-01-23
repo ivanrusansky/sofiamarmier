@@ -17,7 +17,7 @@ function Crisa2023() {
       categoria="fotografía"
       titulo="CRISÁ 2023"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/sesiones"
     />
   );

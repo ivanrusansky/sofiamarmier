@@ -17,7 +17,7 @@ function Bastro() {
       categoria="diseño gráfico"
       titulo="BASTRO"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

@@ -17,7 +17,7 @@ function CrisaLaCasona() {
       categoria="fotografía"
       titulo="CRISÁ, LA CASONA"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/grabaciones"
     />
   );

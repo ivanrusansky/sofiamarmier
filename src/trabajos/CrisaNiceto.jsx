@@ -17,7 +17,7 @@ function CrisaNiceto() {
       categoria="fotografía"
       titulo="CRISÁ NICETO"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

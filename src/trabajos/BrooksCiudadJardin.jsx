@@ -17,7 +17,7 @@ function BrooksCiudadJardin() {
       categoria="fotografía"
       titulo="BROOKS CIUDAD JARDÍN"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

@@ -17,7 +17,7 @@ function ImpSaleOtono() {
       categoria="fotografía"
       titulo="IMP SALE OTOÑO"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/indumentaria"
     />
   );

@@ -17,7 +17,7 @@ function ViudaFederal2025() {
       categoria="diseño gráfico"
       titulo="VIUDA FEDERAL 2025"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

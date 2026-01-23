@@ -17,7 +17,7 @@ function TarjetaMartinaCano() {
       categoria="diseño gráfico"
       titulo="MARTINA CANO"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/tarjetas"
     />
   );

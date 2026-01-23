@@ -17,7 +17,7 @@ function BrooksTheRoxy() {
       categoria="diseño gráfico"
       titulo="BROOKS THE ROXY"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

@@ -17,7 +17,7 @@ function DematteiLaberinto() {
       categoria="fotografía"
       titulo="DEMATTEI LABERINTO"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

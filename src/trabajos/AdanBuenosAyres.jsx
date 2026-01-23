@@ -17,7 +17,7 @@ function AdanBuenosAyres() {
       categoria="diseño gráfico"
       titulo="ADAN BUENOS AYRES"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

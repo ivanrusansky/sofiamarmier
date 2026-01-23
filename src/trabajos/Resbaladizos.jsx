@@ -17,7 +17,7 @@ function Resbaladizos() {
       categoria="audiovisual"
       titulo="RESBALADIZOS"
       trabajo={trabajo}
-      colorHover="#e53935"
+      colorHover="#bbbbbb"
       rutaVolver="/audiovisual/shows-en-vivo"
     />
   );

@@ -17,7 +17,7 @@ function TapaViudaFederal() {
       categoria="diseño gráfico"
       titulo="VIUDA FEDERAL"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/tapas"
     />
   );

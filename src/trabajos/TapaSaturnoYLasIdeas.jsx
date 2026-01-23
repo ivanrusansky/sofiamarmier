@@ -17,7 +17,7 @@ function TapaSaturnoYLasIdeas() {
       categoria="diseño gráfico"
       titulo="SATURNO Y LAS IDEAS"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/tapas"
     />
   );

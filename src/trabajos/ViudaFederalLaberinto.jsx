@@ -17,7 +17,7 @@ function ViudaFederalLaberinto() {
       categoria="fotografía"
       titulo="VIUDA FEDERAL LABERINTO"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

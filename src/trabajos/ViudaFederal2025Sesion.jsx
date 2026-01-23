@@ -17,7 +17,7 @@ function ViudaFederal2025Sesion() {
       categoria="fotografía"
       titulo="VIUDA FEDERAL 2025"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/sesiones"
     />
   );

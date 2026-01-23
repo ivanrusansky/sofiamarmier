@@ -17,7 +17,7 @@ function CrisaCCMatienzo() {
       categoria="fotografía"
       titulo="CRISÁ CC MATIENZO"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

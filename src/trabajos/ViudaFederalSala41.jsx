@@ -17,7 +17,7 @@ function ViudaFederalSala41() {
       categoria="fotografía"
       titulo="VIUDA FEDERAL SALA 41"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

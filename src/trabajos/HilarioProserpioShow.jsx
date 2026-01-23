@@ -17,7 +17,7 @@ function HilarioProserpioShow() {
       categoria="audiovisual"
       titulo="HILARIO PROSERPIO"
       trabajo={trabajo}
-      colorHover="#e53935"
+      colorHover="#bbbbbb"
       rutaVolver="/audiovisual/shows-en-vivo"
     />
   );

@@ -17,7 +17,7 @@ function TarjetaIvanRusansky() {
       categoria="diseño gráfico"
       titulo="IVÁN RUSANSKY"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/tarjetas"
     />
   );

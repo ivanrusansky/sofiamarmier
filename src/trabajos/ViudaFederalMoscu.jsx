@@ -17,7 +17,7 @@ function ViudaFederalMoscu() {
       categoria="diseño gráfico"
       titulo="VIUDA FEDERAL MOSCÚ"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

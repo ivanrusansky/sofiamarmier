@@ -17,7 +17,7 @@ function Babeblade() {
       categoria="audiovisual"
       titulo="BABEBLADE"
       trabajo={trabajo}
-      colorHover="#8b2b29"
+      colorHover="#bbbbbb"
       rutaVolver="/audiovisual/sesiones-en-vivo"
     />
   );

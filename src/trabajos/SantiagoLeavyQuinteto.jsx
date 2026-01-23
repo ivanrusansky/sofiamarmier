@@ -17,7 +17,7 @@ function SantiagoLeavyQuinteto() {
       categoria="diseño gráfico"
       titulo="SANTIAGO LEAVY QUINTETO"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

@@ -17,7 +17,7 @@ function ViudaFederalPreEscucha() {
       categoria="diseño gráfico"
       titulo="VIUDA FEDERAL PRE ESCUCHA"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

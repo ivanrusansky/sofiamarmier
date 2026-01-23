@@ -17,7 +17,7 @@ function CrisaAuditorioOeste() {
       categoria="fotografía"
       titulo="CRISÁ AUDITORIO OESTE"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

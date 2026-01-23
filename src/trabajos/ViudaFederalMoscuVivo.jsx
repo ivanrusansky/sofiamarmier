@@ -17,7 +17,7 @@ function ViudaFederalMoscuVivo() {
       categoria="fotografía"
       titulo="VIUDA FEDERAL MOSCÚ"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

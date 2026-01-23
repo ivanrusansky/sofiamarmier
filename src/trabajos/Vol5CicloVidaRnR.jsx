@@ -17,7 +17,7 @@ function Vol5CicloVidaRnR() {
       categoria="diseño gráfico"
       titulo="VOL5 CICLO VIDA RNR"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

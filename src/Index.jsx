@@ -151,7 +151,7 @@ function Index() {
         <img src="/logo png.png" alt="Background" className="background-image" />
       </div> */}
       <div className="video-container">
-        <video src="/logo.mp4" className="background-video" autoPlay muted loop></video>
+        <video src="/logo.mp4" className="background-video" autoPlay muted loop playsInline></video>
       </div>
     </>
   );

@@ -17,7 +17,7 @@ function BrooksQuilmesRock() {
       categoria="fotografía"
       titulo="BROOKS QUILMES ROCK"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

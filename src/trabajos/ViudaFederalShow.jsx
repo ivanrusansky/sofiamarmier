@@ -17,7 +17,7 @@ function ViudaFederalShow() {
       categoria="audiovisual"
       titulo="VIUDA FEDERAL"
       trabajo={trabajo}
-      colorHover="#e53935"
+      colorHover="#bbbbbb"
       rutaVolver="/audiovisual/shows-en-vivo"
     />
   );

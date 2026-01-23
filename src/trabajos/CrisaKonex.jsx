@@ -17,7 +17,7 @@ function CrisaKonex() {
       categoria="fotografía"
       titulo="CRISÁ KONEX"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

@@ -17,7 +17,7 @@ function ViudaFederalMarcosGabaYGelo() {
       categoria="diseño gráfico"
       titulo="VIUDA FEDERAL MARCOS GABA Y GELO"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

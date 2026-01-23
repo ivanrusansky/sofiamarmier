@@ -16,7 +16,7 @@ function NegativosBlancoYNegro() {
       categoria="fotografía"
       titulo="BLANCO Y NEGRO"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/negativos"
     />
   );

@@ -16,7 +16,7 @@ function NegativosColor() {
       categoria="fotografía"
       titulo="COLOR"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/negativos"
     />
   );

@@ -17,7 +17,7 @@ function SaturninooYLasIdeasMagdalena() {
       categoria="fotografía"
       titulo="SATURNINOO Y LAS IDEAS, MAGDALENA SOUND"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/grabaciones"
     />
   );

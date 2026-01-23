@@ -17,7 +17,7 @@ function Crisa2025() {
       categoria="fotografía"
       titulo="CRISÁ 2025"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/sesiones"
     />
   );

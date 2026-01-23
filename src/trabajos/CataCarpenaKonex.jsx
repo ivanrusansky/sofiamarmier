@@ -17,7 +17,7 @@ function CataCarpenaKonex() {
       categoria="fotografía"
       titulo="CATA CARPENA KONEX"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

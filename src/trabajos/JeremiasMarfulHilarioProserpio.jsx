@@ -18,7 +18,7 @@ function JeremiasMarfulHilarioProserpio() {
       categoria="diseño gráfico"
       titulo="JEREMÍAS MARFUL HILARIO PROSERPIO Y SATURNINO Y LAS IDEAS"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

@@ -17,7 +17,7 @@ function VonFrixCamping() {
       categoria="fotografía"
       titulo="VON FRIX CAMPING"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

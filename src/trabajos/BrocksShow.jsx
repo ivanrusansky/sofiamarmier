@@ -17,7 +17,7 @@ function BrocksShow() {
       categoria="audiovisual"
       titulo="BROCKS"
       trabajo={trabajo}
-      colorHover="#e53935"
+      colorHover="#bbbbbb"
       rutaVolver="/audiovisual/shows-en-vivo"
     />
   );

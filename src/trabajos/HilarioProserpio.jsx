@@ -17,7 +17,7 @@ function HilarioProserpio() {
       categoria="diseño gráfico"
       titulo="HILARIO PROSERPIO"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

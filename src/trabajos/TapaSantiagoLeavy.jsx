@@ -17,7 +17,7 @@ function TapaSantiagoLeavy() {
       categoria="diseño gráfico"
       titulo="SANTIAGO LEAVY"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/tapas"
     />
   );

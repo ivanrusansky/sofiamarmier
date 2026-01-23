@@ -17,7 +17,7 @@ function BrooksLaberinto() {
       categoria="fotografía"
       titulo="BROOKS LABERINTO"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

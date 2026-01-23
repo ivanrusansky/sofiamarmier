@@ -17,7 +17,7 @@ function ViudaFederalLopsisYToroRoi() {
       categoria="diseño gráfico"
       titulo="VIUDA FEDERAL LOPSIS Y TORO ROI"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

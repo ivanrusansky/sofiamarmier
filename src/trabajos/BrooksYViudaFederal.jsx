@@ -17,7 +17,7 @@ function BrooksYViudaFederal() {
       categoria="diseño gráfico"
       titulo="BROOKS Y VIUDA FEDERAL"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

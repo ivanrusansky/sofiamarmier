@@ -17,7 +17,7 @@ function VonFrixSesion() {
       categoria="audiovisual"
       titulo="VON FRIX"
       trabajo={trabajo}
-      colorHover="#8b2b29"
+      colorHover="#bbbbbb"
       rutaVolver="/audiovisual/sesiones-en-vivo"
     />
   );

@@ -17,7 +17,7 @@ function JeremiasMarful() {
       categoria="fotografía"
       titulo="JEREMÍAS MARFUL"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

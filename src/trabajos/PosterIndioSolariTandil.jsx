@@ -17,7 +17,7 @@ function PosterIndioSolariTandil() {
       categoria="diseño gráfico"
       titulo="INDIO SOLARI TANDIL"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/posters"
     />
   );

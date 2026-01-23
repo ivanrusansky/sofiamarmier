@@ -17,7 +17,7 @@ function ViudaFederalBibliotecaPopular() {
       categoria="fotografía"
       titulo="VIUDA FEDERAL BIBLIOTECA POPULAR"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

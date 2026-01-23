@@ -18,7 +18,7 @@ function BrooksDaltonicaYHormigasFC() {
       categoria="diseño gráfico"
       titulo="BROOKS DALTÓNICA Y HORMIGAS FC"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
     />
   );

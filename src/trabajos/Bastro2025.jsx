@@ -17,7 +17,7 @@ function Bastro2025() {
       categoria="fotografía"
       titulo="BASTRO 2025"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/sesiones"
     />
   );

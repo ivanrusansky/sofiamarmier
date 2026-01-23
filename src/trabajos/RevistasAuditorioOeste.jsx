@@ -17,7 +17,7 @@ function RevistasAuditorioOeste() {
       categoria="fotografía"
       titulo="REVISTAS AUDITORIO OESTE"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"
     />
   );

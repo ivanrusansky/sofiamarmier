@@ -17,7 +17,7 @@ function TapaBrocks() {
       categoria="diseño gráfico"
       titulo="BROCKS"
       trabajo={trabajo}
-      colorHover="#c4a312"
+      colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/tapas"
     />
   );

@@ -17,7 +17,7 @@ function BastroDeltaSound() {
       categoria="fotografía"
       titulo="BASTRO, DELTA SOUND"
       trabajo={trabajo}
-      colorHover="#4b9b6c"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/grabaciones"
     />
   );

@@ -17,7 +17,7 @@ function BrooksRomaphonic() {
       categoria="fotografía"
       titulo="BROOKS, ROMAPHONIC"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/grabaciones"
     />
   );

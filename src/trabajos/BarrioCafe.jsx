@@ -17,7 +17,7 @@ function BarrioCafe() {
       categoria="fotografía"
       titulo="BARRIO CAFÉ"
       trabajo={trabajo}
-      colorHover="#00c853"
+      colorHover="#bbbbbb"
       rutaVolver="/fotografia/gastronomia"
     />
   );
