@@ -13,15 +13,13 @@ function Posters() {
     {
       nombre: "EL MATO - NOCHE NEGRA",
       descripcion: "",
-      imagen: "/proyectos/posters/el-mato-noche-negra.jpg",
-      sinImagen: true,
+      imagen: "https://lh3.googleusercontent.com/d/1s7gghIWP1_0Jycyr4DIYYZJnipfQMalB",
       ruta: "/trabajo/poster-el-mato-noche-negra"
     },
     {
       nombre: "INDIO SOLARI TANDIL",
       descripcion: "",
-      imagen: "/proyectos/posters/indio-solari-tandil.jpg"
-      , sinImagen: true,
+      imagen: "https://lh3.googleusercontent.com/d/1YCdjQ5izsyG8FfS5HdXO4Fl-roXCQucN",
       ruta: "/trabajo/poster-indio-solari-tandil"
     },
   ];

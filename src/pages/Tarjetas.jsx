@@ -6,15 +6,13 @@ function Tarjetas() {
     {
       nombre: "IVÁN RUSANSKY",
       descripcion: "",
-      imagen: "/proyectos/tarjetas/ivan-rusansky.jpg",
-      sinImagen: true,
+      imagen: "https://lh3.googleusercontent.com/d/10mlk7vUYqmJ-RttFPI5PYV3Flv0p1w7E",
       ruta: "/trabajo/tarjeta-ivan-rusansky"
     },
     {
       nombre: "MARTINA CANO",
       descripcion: "",
-      imagen: "/proyectos/tarjetas/martina-cano.jpg",
-      sinImagen: true,
+      imagen: "https://lh3.googleusercontent.com/d/1o3oITXnvfUkb2S_wQZvv3YN9BHKvgZk6",
       ruta: "/trabajo/tarjeta-martina-cano"
     },
   ];

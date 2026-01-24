@@ -6,38 +6,33 @@ function Tapas() {
     {
       nombre: "BASTRO",
       descripcion: "",
-      imagen: "/proyectos/tapas/bastro.jpg",
-      sinImagen: true,
+      imagen: "https://lh3.googleusercontent.com/d/1sWXAt5dyYSJz0qj-OWbKhZExF9JlNgsq",
       ruta: "/trabajo/tapa-bastro"
     },
     {
-      nombre: "BROCKS",
+      nombre: "BROOKS",
       descripcion: "",
-      imagen: "/proyectos/tapas/brocks.jpg",
-      sinImagen: true,
-      ruta: "/trabajo/tapa-brocks"
+      imagen: "https://lh3.googleusercontent.com/d/112BbyLRb9aAcdOqrzSzWTo6HiLPmAl0Z",
+      ruta: "/trabajo/tapa-brooks"
     },
     {
       nombre: "SANTIAGO LEAVY",
       descripcion: "",
-      imagen: "/proyectos/tapas/santiago-leavy.jpg",
-      sinImagen: true,
+      imagen: "https://lh3.googleusercontent.com/d/1XsVn4-voIkhqAvcU8BGoxLpp6kUKTGra",
       ruta: "/trabajo/tapa-santiago-leavy"
     },
-    {
-      nombre: "SATURNO Y LAS IDEAS",
-      descripcion: "",
-      imagen: "/proyectos/tapas/saturno-y-las-ideas.jpg",
-      sinImagen: true,
-      ruta: "/trabajo/tapa-saturno-y-las-ideas"
-    },
-    {
-      nombre: "VIUDA FEDERAL",
-      descripcion: "",
-      imagen: "/proyectos/tapas/viuda-federal.jpg",
-      sinImagen: true,
-      ruta: "/trabajo/tapa-viuda-federal"
-    },
+        {
+          nombre: "SATURNINO Y LAS IDEAS",
+          descripcion: "",
+          imagen: "https://lh3.googleusercontent.com/d/15MHP5UvKMXmVVYigWoAaFQUORSh2V8C-",
+          ruta: "/trabajo/tapa-saturno-y-las-ideas"
+        },
+        {
+          nombre: "VIUDA FEDERAL",
+          descripcion: "",
+          imagen: "https://lh3.googleusercontent.com/d/1uZd79vyk7JIBBuC1ZEKUhQ8OuNicu9sF",
+          ruta: "/trabajo/tapa-viuda-federal"
+        },
   ];
   return (
     <ProyectosPage categoria="diseño gráfico" titulo="TAPAS" proyectos={proyectos} colorHover="#c4a312" />
