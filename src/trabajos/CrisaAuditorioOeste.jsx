@@ -6,10 +6,8 @@ function CrisaAuditorioOeste() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1ViyYU0mS8Qtf8nWiare1-WayOm46gAuW"
     ],
-    descripcion: "Fotografía en vivo de Crisá en Auditorio Oeste",
-    cliente: "Crisá",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Crisá en el Auditorio Oeste.",
+    año: "2025"
   };
 
   return (

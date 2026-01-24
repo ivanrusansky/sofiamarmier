@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaSantiagoLeavy() {
   const trabajo = {
     imagenes: [
-      "/proyectos/tapas/santiago-leavy.jpg"
+      "https://lh3.googleusercontent.com/d/1XsVn4-voIkhqAvcU8BGoxLpp6kUKTGra"
     ],
     descripcion: "Diseño de tapa para Santiago Leavy",
     cliente: "Santiago Leavy",

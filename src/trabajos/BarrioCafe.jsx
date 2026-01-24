@@ -6,10 +6,8 @@ function BarrioCafe() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1_vi5X9oeimvx91xO7EZDvacrBpq0eezN"
     ],
-    descripcion: "Sesión fotográfica para Barrio Café",
-    cliente: "Barrio Café",
-    año: "2024",
-    tecnicas: ["Fotografía gastronómica", "Fotografía comercial"]
+    descripcion: "Registro fotográfico para Barrio Café. Muchas fotos fueron tomadas en eventos que realizan donde se mezcla la música, la gastronomía y el barrio. Ubicado en Ciudad Jardín.",
+    año: "2024"
   };
 
   return (

@@ -6,10 +6,8 @@ function ViudaFederalEstudiosIon() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1hKSVfHEMdKNyDf0EZLelWFZeFAiOpD_M"
     ],
-    descripcion: "Sesión fotográfica de grabación de Viuda Federal en Estudios ION",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Fotografía de estudio", "Fotografía documental"]
+    descripcion: "Viuda Federal en Estudios ION, CABA. El segundo año retratando a unas de las bandas que más quiero y admiro. Gracias amigos.",
+    año: "2026"
   };
 
   return (

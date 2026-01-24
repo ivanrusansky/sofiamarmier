@@ -6,10 +6,8 @@ function SaturninooYLasIdeasMagdalena() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1QxZbAefQGJvzYcE1aCtd59peAHMl9WPI"
     ],
-    descripcion: "Sesión fotográfica de grabación de Saturninoo y Las Ideas en Magdalena Sound",
-    cliente: "Saturninoo y Las Ideas",
-    año: "2024",
-    tecnicas: ["Fotografía de estudio", "Fotografía documental"]
+    descripcion: "Saturnino y las Ideas en el Estudio Magdalena, Haedo.",
+    año: "2025"
   };
 
   return (

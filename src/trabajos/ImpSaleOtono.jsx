@@ -6,10 +6,8 @@ function ImpSaleOtono() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1bx-SSsBe1RXi55uaybQhQPf1PBnKFtvK"
     ],
-    descripcion: "Sesión fotográfica para IMP Sale Otoño",
-    cliente: "IMP",
-    año: "2024",
-    tecnicas: ["Fotografía de moda", "Fotografía editorial"]
+    descripcion: "Sesión de fotos y diseño para la campaña de Otoño - Invierno de Imp Sale. Realizada en Deofi estudio.",
+    año: "2025"
   };
 
   return (

@@ -6,10 +6,8 @@ function SadPopClub() {
     imagenes: [
       "/proyectos/shows-en-vivo/sad-pop-club.jpg"
     ],
-    descripcion: "Show en vivo de Sad Pop Club",
-    cliente: "Sad Pop Club",
-    año: "2024",
-    tecnicas: ["Video", "Producción audiovisual", "Show en vivo"]
+    descripcion: "Cobertura para Sad Pop Club, productora que trajo a Estoy Bien (CHILE) .",
+    año: "2025"
   };
 
   return (

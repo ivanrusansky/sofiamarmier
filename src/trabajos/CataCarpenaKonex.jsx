@@ -6,10 +6,8 @@ function CataCarpenaKonex() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1MJOkqzLUQlt7l3RBUTLiOnoPYHjjg2QU"
     ],
-    descripcion: "Fotografía en vivo de Cata Carpena en Konex",
-    cliente: "Cata Carpena",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Registro de Cata Carpena en el Konex.",
+    año: "2025"
   };
 
   return (

@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaBrocks() {
   const trabajo = {
     imagenes: [
-      "/proyectos/tapas/brocks.jpg"
+      "https://lh3.googleusercontent.com/d/112BbyLRb9aAcdOqrzSzWTo6HiLPmAl0Z"
     ],
     descripcion: "Diseño de tapa para Brocks",
     cliente: "Brocks",

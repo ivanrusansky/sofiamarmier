@@ -6,10 +6,8 @@ function BrooksCiudadJardin() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1wEgPKBY0ggh2nyESpwu_b9NFYvnKC9qD"
     ],
-    descripcion: "Fotografía en vivo de Brooks en Ciudad Jardín",
-    cliente: "Brooks",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Brooks en Ciudad Jardín, Tres de Febrero.",
+    año: "2025"
   };
 
   return (

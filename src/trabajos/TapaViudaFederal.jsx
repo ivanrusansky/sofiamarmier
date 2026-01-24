@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaViudaFederal() {
   const trabajo = {
     imagenes: [
-      "/proyectos/tapas/viuda-federal.jpg"
+      "https://lh3.googleusercontent.com/d/1uZd79vyk7JIBBuC1ZEKUhQ8OuNicu9sF"
     ],
     descripcion: "Diseño de tapa para Viuda Federal",
     cliente: "Viuda Federal",

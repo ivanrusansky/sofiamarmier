@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TarjetaMartinaCano() {
   const trabajo = {
     imagenes: [
-      "/proyectos/tarjetas/martina-cano.jpg"
+      "https://lh3.googleusercontent.com/d/1o3oITXnvfUkb2S_wQZvv3YN9BHKvgZk6"
     ],
     descripcion: "Diseño de tarjeta personal para Martina Cano",
     cliente: "Martina Cano",

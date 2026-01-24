@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaSaturnoYLasIdeas() {
   const trabajo = {
     imagenes: [
-      "/proyectos/tapas/saturno-y-las-ideas.jpg"
+      "https://lh3.googleusercontent.com/d/15MHP5UvKMXmVVYigWoAaFQUORSh2V8C-"
     ],
     descripcion: "Diseño de tapa para Saturno y Las Ideas",
     cliente: "Saturno y Las Ideas",

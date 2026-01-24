@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function PosterIndioSolariTandil() {
   const trabajo = {
     imagenes: [
-      "/proyectos/posters/indio-solari-tandil.jpg"
+      "https://lh3.googleusercontent.com/d/1YCdjQ5izsyG8FfS5HdXO4Fl-roXCQucN"
     ],
     descripcion: "Póster para Indio Solari en Tandil",
     cliente: "Indio Solari",

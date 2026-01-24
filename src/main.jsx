@@ -56,6 +56,7 @@ import TarjetaMartinaCano from './trabajos/TarjetaMartinaCano.jsx'
 import FanzineSaturninoYLasIdeas from './trabajos/FanzineSaturninoYLasIdeas.jsx'
 
 // Importar trabajos individuales - Fotografía
+import SimpleMuebles from './trabajos/SimpleMuebles.jsx'
 import BarrioCafe from './trabajos/BarrioCafe.jsx'
 import VineraVinos from './trabajos/VineraVinos.jsx'
 import ImpSaleOtono from './trabajos/ImpSaleOtono.jsx'
@@ -161,6 +162,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/trabajo/fanzine-saturnino-y-las-ideas" element={<FanzineSaturninoYLasIdeas />} />
 
         {/* Rutas de trabajos individuales - Fotografía */}
+        <Route path="/trabajo/simple-muebles" element={<SimpleMuebles />} />
         <Route path="/trabajo/barrio-cafe" element={<BarrioCafe />} />
         <Route path="/trabajo/vinera-vinos" element={<VineraVinos />} />
         <Route path="/trabajo/imp-sale-otono" element={<ImpSaleOtono />} />

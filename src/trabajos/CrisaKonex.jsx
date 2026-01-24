@@ -6,10 +6,8 @@ function CrisaKonex() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1lWo6sBr7NeVXrn7SlqEDRnY1chPIZixh"
     ],
-    descripcion: "Fotografía en vivo de Crisá en Konex",
-    cliente: "Crisá",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Crisá en el Konex.",
+    año: "2025"
   };
 
   return (

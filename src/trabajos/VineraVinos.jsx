@@ -6,10 +6,8 @@ function VineraVinos() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1MJHikRUxX5dzUhAmaUE9WtNR-kz4maJH"
     ],
-    descripcion: "Sesión fotográfica para Vinera Vinos",
-    cliente: "Vinera Vinos",
-    año: "2024",
-    tecnicas: ["Fotografía gastronómica", "Fotografía de producto"]
+    descripcion: "Registro para Vinera Vinos y su cata realizada en Pompeya, Haedo.",
+    año: "2024"
   };
 
   return (

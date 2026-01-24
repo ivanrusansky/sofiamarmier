@@ -6,10 +6,8 @@ function ViudaFederalLaberinto() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1C3tmag-90b8Ww8-o2IEE1gZrDBcrj0Zz=w1000"
     ],
-    descripcion: "Fotografía en vivo de Viuda Federal en Laberinto",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Viuda Federal en Laberinto. Una fecha muy especial e importante para la banda, ya que fue la primera vez que tocaron en vivo. Esta fecha dio pie a un año espectacular para ellos.",
+    año: "2025"
   };
 
   return (

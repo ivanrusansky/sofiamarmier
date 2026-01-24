@@ -6,10 +6,8 @@ function CrisaCCMatienzo() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/14_WsDSArL8YjjzEvwLPiXSZz0YmtDZp6"
     ],
-    descripcion: "Fotografía en vivo de Crisá en CC Matienzo",
-    cliente: "Crisá",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: `Cobertura y escenografía para Crisá en el CC Matienzo. Fue una fecha muy emocionante por el aniversario del EP -cuál es el último recuerdo que guardas?-.\nLa escenografía fue realizada en conjunto con Coty Casolati.`,
+    año: "2025"
   };
 
   return (

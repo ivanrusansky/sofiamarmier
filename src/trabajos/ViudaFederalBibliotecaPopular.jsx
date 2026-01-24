@@ -6,10 +6,8 @@ function ViudaFederalBibliotecaPopular() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1oXk2f0DPyLlw-OHMyEufJX3n1dGzpxmL=w1000"
     ],
-    descripcion: "Fotografía en vivo de Viuda Federal en Biblioteca Popular",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Viuda Federal en la Biblioteca Popular de Ciudad Jardín.",
+    año: "2025"
   };
 
   return (

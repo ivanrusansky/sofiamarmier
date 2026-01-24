@@ -6,10 +6,8 @@ function BrooksLaberinto() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1To4npZva-WUbaWFzVrxhFQmHb3R7fbiu"
     ],
-    descripcion: "Fotografía en vivo de Brooks en Laberinto",
-    cliente: "Brooks",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Brooks en Laberinto.",
+    año: "2025"
   };
 
   return (

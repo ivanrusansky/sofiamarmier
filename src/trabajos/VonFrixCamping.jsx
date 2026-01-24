@@ -6,10 +6,8 @@ function VonFrixCamping() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/11m0O7wYjmXuP-2YUWCojxS7a2DsYBFyN=w1000"
     ],
-    descripcion: "Fotografía en vivo de Von Frix en Camping",
-    cliente: "Von Frix",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Von Frix en Camping.",
+    año: "2025"
   };
 
   return (

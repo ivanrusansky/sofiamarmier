@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function PosterElMatoNocheNegra() {
   const trabajo = {
     imagenes: [
-      "/proyectos/posters/el-mato-noche-negra.jpg"
+      "https://lh3.googleusercontent.com/d/1s7gghIWP1_0Jycyr4DIYYZJnipfQMalB"
     ],
     descripcion: "Póster para El Mato - Noche Negra",
     cliente: "El Mato a un Policia Motorizado",

@@ -6,10 +6,8 @@ function ViudaFederalSaldias() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1RVIg4Zc_oBih7cItZ-xM2aR3nWHj0S1K"
     ],
-    descripcion: "Sesión fotográfica de grabación de Viuda Federal en Saldías",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Fotografía de estudio", "Fotografía documental"]
+    descripcion: "Viuda Federal en Saldías, la sala donde ensayaron para la fecha de Moscú realizada y producida enteramente por ellos.",
+    año: "2025"
   };
 
   return (

@@ -6,10 +6,8 @@ function RevistasAuditorioOeste() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1gQ9DGdjed0Jkr9JGQNR3usfJaOcCzoVX=w1000"
     ],
-    descripcion: "Fotografía en vivo de Revistas en Auditorio Oeste",
-    cliente: "Revistas",
-    año: "2024",
-    tecnicas: ["Fotografía en vivo", "Fotografía de conciertos"]
+    descripcion: "Cobertura para Revistas en el Auditorio Oeste.",
+    año: "2025"
   };
 
   return (

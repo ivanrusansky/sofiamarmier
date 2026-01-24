@@ -6,10 +6,8 @@ function Crisa2023() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1iJB_lUrj4bcPyAkuxv_na7-tukc__FgY"
     ],
-    descripcion: "Sesión fotográfica de Crisá 2023",
-    cliente: "Crisá",
-    año: "2023",
-    tecnicas: ["Fotografía de retrato", "Fotografía de banda"]
+    descripcion: "Registro de Crisá en el 2023. Indumentaria realizada por Coty Casolati.",
+    año: "2023"
   };
 
   return (

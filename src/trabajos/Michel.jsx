@@ -6,10 +6,8 @@ function Michel() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1fFcJulkLCIzbpBmoW4bP3Yb2xZhnIvZH"
     ],
-    descripcion: "Sesión fotográfica para Michel",
-    cliente: "Michel",
-    año: "2024",
-    tecnicas: ["Fotografía de moda", "Fotografía editorial"]
+    descripcion: `Sesión de fotos para Michel.\nEstilismo por Denisse Calzone.\nModelos Camila Herman y Pedro Oliver\nEstudio Deofi`,
+    año: "2024"
   };
 
   return (

@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TarjetaIvanRusansky() {
   const trabajo = {
     imagenes: [
-      "/proyectos/tarjetas/ivan-rusansky.jpg"
+      "https://lh3.googleusercontent.com/d/10mlk7vUYqmJ-RttFPI5PYV3Flv0p1w7E"
     ],
     descripcion: "Diseño de tarjeta personal para Iván Rusansky",
     cliente: "Iván Rusansky",

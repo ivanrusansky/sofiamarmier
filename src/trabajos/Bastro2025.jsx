@@ -6,10 +6,8 @@ function Bastro2025() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1RSwP-AWn_dAsp9qBxQocrU77_EDbHRnd"
     ],
-    descripcion: "Sesión fotográfica de BASTRO 2025",
-    cliente: "BASTRO",
-    año: "2025",
-    tecnicas: ["Fotografía de retrato", "Fotografía de banda"]
+    descripcion: "Fotos express realizadas para Bastro. Un domingo a la mañana nos metimos en un terreno abandonado de nuestro barrio y realizamos estas fotos.",
+    año: "2025"
   };
 
   return (

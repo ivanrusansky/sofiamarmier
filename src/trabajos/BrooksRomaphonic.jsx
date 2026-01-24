@@ -6,10 +6,8 @@ function BrooksRomaphonic() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1Xr-2wDCFu1rgI1VizLMxzb6EBp308sEe"
     ],
-    descripcion: "Sesión fotográfica de grabación de Brooks en Romaphonic",
-    cliente: "Brooks",
-    año: "2024",
-    tecnicas: ["Fotografía de estudio", "Fotografía documental"]
+    descripcion: "Brooks en Romaphonic grabando su primer disco Nada era tan Cierto. Producido por Ale Vazquez. 7 días de febrero muy felices.",
+    año: "2024"
   };
 
   return (

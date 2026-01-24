@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaBastro() {
   const trabajo = {
     imagenes: [
-      "/proyectos/tapas/bastro.jpg"
+      "https://lh3.googleusercontent.com/d/1sWXAt5dyYSJz0qj-OWbKhZExF9JlNgsq"
     ],
     descripcion: "Diseño de tapa para BASTRO",
     cliente: "BASTRO",
