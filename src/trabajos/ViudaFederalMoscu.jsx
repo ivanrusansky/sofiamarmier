@@ -7,9 +7,7 @@ function ViudaFederalMoscu() {
       "/flyers_de_musica/viuda_federal_moscu/pag_1"
     ],
     descripcion: "Flyer para Viuda Federal en Moscú",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+      año: "2024"
   };
 
   return (

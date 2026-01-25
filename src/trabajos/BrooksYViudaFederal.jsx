@@ -7,9 +7,7 @@ function BrooksYViudaFederal() {
       "/flyers_de_musica/brooks_y_viuda_federal/visualizador_1_jpg"
     ],
     descripcion: "Flyer para el evento de Brooks y Viuda Federal",
-    cliente: "Brooks & Viuda Federal",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

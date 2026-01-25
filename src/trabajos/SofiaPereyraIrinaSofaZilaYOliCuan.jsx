@@ -7,9 +7,7 @@ function SofiaPereyraIrinaSofaZilaYOliCuan() {
       "/flyers_de_musica/sofia_pereyra_irina_sofa_zila_y_oli_cuan/flyer_jpg"
     ],
     descripcion: "Flyer para el evento de Sofía Pereyra, Irina, Sofa, Zila y Oli Cuán",
-    cliente: "Sofía Pereyra, Irina, Sofa, Zila, Oli Cuán",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

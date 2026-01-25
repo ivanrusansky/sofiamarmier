@@ -7,9 +7,7 @@ function PosterBastro() {
       "/proyectos/posters/bastro.jpg"
     ],
     descripcion: "Póster para BASTRO",
-    cliente: "BASTRO",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

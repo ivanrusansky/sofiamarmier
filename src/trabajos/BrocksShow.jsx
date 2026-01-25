@@ -7,9 +7,7 @@ function BrocksShow() {
       "/proyectos/shows-en-vivo/brocks.jpg"
     ],
     descripcion: "Show en vivo de Brocks",
-    cliente: "Brocks",
-    año: "2024",
-    tecnicas: ["Video", "Producción audiovisual", "Show en vivo"]
+    año: "2024"
   };
 
   return (

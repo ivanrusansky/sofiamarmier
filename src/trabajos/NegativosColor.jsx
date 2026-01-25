@@ -7,8 +7,7 @@ function NegativosColor() {
       "https://lh3.googleusercontent.com/u/0/d/14TQzvvpozfZwN7d_uklfMjW-FooShXMb"
     ],
     descripcion: "Serie fotográfica en color",
-    año: "2024",
-    tecnicas: ["Fotografía analógica", "Color", "Revelado químico"]
+    año: "2024"
   };
 
   return (

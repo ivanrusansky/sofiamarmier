@@ -7,9 +7,7 @@ function ViudaFederalMarcosGabaYGelo() {
       "/flyers_de_musica/viuda_federal_marcos_gaba_y_gelo/flyer_1_png"
     ],
     descripcion: "Flyer para Viuda Federal, Marcos Gaba y Gelo",
-    cliente: "Viuda Federal, Marcos Gaba, Gelo",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

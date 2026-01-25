@@ -7,9 +7,7 @@ function TapaBastro() {
       "https://lh3.googleusercontent.com/d/1sWXAt5dyYSJz0qj-OWbKhZExF9JlNgsq"
     ],
     descripcion: "Diseño de tapa para BASTRO",
-    cliente: "BASTRO",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital", "Diseño editorial"]
+    año: "2024"
   };
 
   return (

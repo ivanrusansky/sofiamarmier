@@ -7,9 +7,7 @@ function HilarioProserpio() {
       "/flyers_de_musica/hilario_proserpio/flyer_jpg"
     ],
     descripcion: "Flyer para el show de Hilario Proserpio",
-    cliente: "Hilario Proserpio",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

@@ -7,9 +7,7 @@ function TarjetaMartinaCano() {
       "https://lh3.googleusercontent.com/d/1o3oITXnvfUkb2S_wQZvv3YN9BHKvgZk6"
     ],
     descripcion: "Diseño de tarjeta personal para Martina Cano",
-    cliente: "Martina Cano",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Diseño de identidad"]
+    año: "2024"
   };
 
   return (

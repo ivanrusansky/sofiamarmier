@@ -7,9 +7,7 @@ function BrooksTheRoxy() {
       "/flyers_de_musica/brooks_the_roxy/pag_1"
     ],
     descripcion: "Flyer para Brooks en The Roxy",
-    cliente: "Brooks",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

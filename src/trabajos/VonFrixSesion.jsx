@@ -7,9 +7,7 @@ function VonFrixSesion() {
       "https://lh3.googleusercontent.com/u/0/d/1xAN9t46LyLFoGo1b74WGaWmR9BuWKIyi"
     ],
     descripcion: "Sesión en vivo de Von Frix",
-    cliente: "Von Frix",
-    año: "2024",
-    tecnicas: ["Video", "Producción audiovisual", "Sesión en vivo"]
+    año: "2024"
   };
 
   return (

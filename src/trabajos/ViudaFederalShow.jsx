@@ -7,9 +7,7 @@ function ViudaFederalShow() {
       "/proyectos/shows-en-vivo/viuda-federal.jpg"
     ],
     descripcion: "Show en vivo de Viuda Federal",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Video", "Producción audiovisual", "Show en vivo"]
+    año: "2024"
   };
 
   return (

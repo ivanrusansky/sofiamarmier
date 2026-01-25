@@ -7,9 +7,7 @@ function TapaSantiagoLeavy() {
       "https://lh3.googleusercontent.com/d/1XsVn4-voIkhqAvcU8BGoxLpp6kUKTGra"
     ],
     descripcion: "Diseño de tapa para Santiago Leavy",
-    cliente: "Santiago Leavy",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital", "Diseño editorial"]
+    año: "2024"
   };
 
   return (

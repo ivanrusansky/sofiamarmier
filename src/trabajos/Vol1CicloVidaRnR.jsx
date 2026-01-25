@@ -7,9 +7,7 @@ function Vol1CicloVidaRnR() {
       "/flyers_de_musica/vol_1_ciclo_vida_rnr/volumen_1_1_jpg"
     ],
     descripcion: "Flyer para Volumen 1 del Ciclo Vida RnR",
-    cliente: "Ciclo Vida RnR",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

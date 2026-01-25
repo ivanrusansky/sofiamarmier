@@ -7,9 +7,7 @@ function TapaViudaFederal() {
       "https://lh3.googleusercontent.com/d/1uZd79vyk7JIBBuC1ZEKUhQ8OuNicu9sF"
     ],
     descripcion: "Diseño de tapa para Viuda Federal",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital", "Diseño editorial"]
+    año: "2024"
   };
 
   return (

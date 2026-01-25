@@ -7,9 +7,7 @@ function TarjetaIvanRusansky() {
       "https://lh3.googleusercontent.com/d/10mlk7vUYqmJ-RttFPI5PYV3Flv0p1w7E"
     ],
     descripcion: "Diseño de tarjeta personal para Iván Rusansky",
-    cliente: "Iván Rusansky",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Diseño de identidad"]
+    año: "2024"
   };
 
   return (

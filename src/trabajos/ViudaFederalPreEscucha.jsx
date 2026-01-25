@@ -7,9 +7,7 @@ function ViudaFederalPreEscucha() {
       "/flyers_de_musica/viuda_federal_pre_escucha/flyer_1_png"
     ],
     descripcion: "Flyer para Pre-escucha de Viuda Federal",
-    cliente: "Viuda Federal",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

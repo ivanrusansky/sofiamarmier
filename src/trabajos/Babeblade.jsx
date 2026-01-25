@@ -7,9 +7,7 @@ function Babeblade() {
       "https://lh3.googleusercontent.com/u/0/d/1BL7Q06zVLXcqGGfiaIE_DPkE4TrnthWD"
     ],
     descripcion: "Sesión en vivo de Babeblade",
-    cliente: "Babeblade",
-    año: "2024",
-    tecnicas: ["Video", "Producción audiovisual", "Sesión en vivo"]
+    año: "2024"
   };
 
   return (

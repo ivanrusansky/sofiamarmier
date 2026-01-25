@@ -8,9 +8,7 @@ function JeremiasMarfulHilarioProserpio() {
       "/flyers_de_musica/jeremias_marful_hilario_proserpio_y_saturnino_y_las_ideas/pag_2"
     ],
     descripcion: "Flyer para Jeremías Marful, Hilario Proserpio y Saturnino y Las Ideas",
-    cliente: "Jeremías Marful, Hilario Proserpio, Saturnino y Las Ideas",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

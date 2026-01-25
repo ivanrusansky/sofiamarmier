@@ -7,9 +7,7 @@ function FanzineSaturninoYLasIdeas() {
       "/proyectos/fanzine/saturno-y-las-ideas.jpg"
     ],
     descripcion: "Fanzine para Saturnino y Las Ideas",
-    cliente: "Saturnino y Las Ideas",
-    año: "2024",
-    tecnicas: ["Diseño editorial", "Diseño gráfico", "Ilustración"]
+    año: "2024"
   };
 
   return (

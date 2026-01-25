@@ -7,9 +7,7 @@ function CrisaLaCasona() {
       "/proyectos/grabaciones/crisa-la-casona.jpg"
     ],
     descripcion: "Sesión fotográfica de grabación de Crisá en La Casona",
-    cliente: "Crisá",
-    año: "2024",
-    tecnicas: ["Fotografía de estudio", "Fotografía documental"]
+    año: "2024"
   };
 
   return (

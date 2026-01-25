@@ -7,9 +7,7 @@ function BrooksCafeBerlin() {
       "/flyers_de_musica/brooks_cafe_berlin/pag_1"
     ],
     descripcion: "Flyer para Brooks en Café Berlin",
-    cliente: "Brooks",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

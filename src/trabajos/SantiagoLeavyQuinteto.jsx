@@ -7,9 +7,7 @@ function SantiagoLeavyQuinteto() {
       "/flyers_de_musica/santiago_leavy_quinteto/flyer_jpg"
     ],
     descripcion: "Flyer para Santiago Leavy Quinteto",
-    cliente: "Santiago Leavy Quinteto",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

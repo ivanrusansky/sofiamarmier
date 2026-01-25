@@ -7,9 +7,7 @@ function DaltonicaKavalaYGrela() {
       "/flyers_de_musica/daltonica_kavala_y_grela/flyers_3_jpg"
     ],
     descripcion: "Flyer para Daltónica, Kavala y Grela",
-    cliente: "Daltónica, Kavala, Grela",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

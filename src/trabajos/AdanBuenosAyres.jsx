@@ -7,9 +7,7 @@ function AdanBuenosAyres() {
       "/flyers_de_musica/adan_buenos_ayres/flyer_jpg"
     ],
     descripcion: "Flyer para Adan Buenos Ayres",
-    cliente: "Adan Buenos Ayres",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

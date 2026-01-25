@@ -7,9 +7,7 @@ function ViudaFederalYKons() {
       "/flyers_de_musica/viuda_federal_y_kons/flyer_3_jpg"
     ],
     descripcion: "Flyer para Viuda Federal y Kons",
-    cliente: "Viuda Federal & Kons",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

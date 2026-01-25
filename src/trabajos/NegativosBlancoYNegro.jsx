@@ -7,8 +7,7 @@ function NegativosBlancoYNegro() {
       "https://lh3.googleusercontent.com/u/0/d/1bFX66pWo13piH3szUbqqcEtekBYVtl9g"
     ],
     descripcion: "Serie fotográfica en blanco y negro",
-    año: "2024",
-    tecnicas: ["Fotografía analógica", "Blanco y negro", "Revelado químico"]
+    año: "2024"
   };
 
   return (

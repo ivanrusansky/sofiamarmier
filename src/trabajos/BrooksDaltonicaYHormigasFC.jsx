@@ -8,9 +8,7 @@ function BrooksDaltonicaYHormigasFC() {
       "/flyers_de_musica/brooks_daltonica_y_hormigas_fc/pag_2"
     ],
     descripcion: "Flyer para el evento de Brooks, Daltónica y Hormigas FC",
-    cliente: "Brooks, Daltónica, Hormigas FC",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (

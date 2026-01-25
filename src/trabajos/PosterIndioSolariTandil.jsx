@@ -7,9 +7,7 @@ function PosterIndioSolariTandil() {
       "https://lh3.googleusercontent.com/d/1YCdjQ5izsyG8FfS5HdXO4Fl-roXCQucN"
     ],
     descripcion: "Póster para Indio Solari en Tandil",
-    cliente: "Indio Solari",
-    año: "2024",
-    tecnicas: ["Diseño gráfico", "Ilustración digital"]
+    año: "2024"
   };
 
   return (
