@@ -18,7 +18,7 @@ import Vivo from './pages/Vivo.jsx'
 import SesionesEnVivo from './pages/SesionesEnVivo.jsx'
 import ShowsEnVivo from './pages/ShowsEnVivo.jsx'
 
-// Importar trabajos individuales - Flyers de Música
+// Importar trabajosindividuales - Flyers de Música
 import AdanBuenosAyres from './trabajos/AdanBuenosAyres.jsx'
 import Bastro from './trabajos/Bastro.jsx'
 import BrooksCafeBerlin from './trabajos/BrooksCafeBerlin.jsx'
@@ -42,7 +42,7 @@ import Vol3CicloVidaRnR from './trabajos/Vol3CicloVidaRnR.jsx'
 import Vol4CicloVidaRnR from './trabajos/Vol4CicloVidaRnR.jsx'
 import Vol5CicloVidaRnR from './trabajos/Vol5CicloVidaRnR.jsx'
 
-// Importar trabajos individuales - Tapas, Posters, Tarjetas, Fanzine
+// Importar trabajosindividuales - Tapas, Posters, Tarjetas, Fanzine
 import TapaBastro from './trabajos/TapaBastro.jsx'
 import TapaBrocks from './trabajos/TapaBrocks.jsx'
 import TapaSantiagoLeavy from './trabajos/TapaSantiagoLeavy.jsx'
@@ -55,7 +55,7 @@ import TarjetaIvanRusansky from './trabajos/TarjetaIvanRusansky.jsx'
 import TarjetaMartinaCano from './trabajos/TarjetaMartinaCano.jsx'
 import FanzineSaturninoYLasIdeas from './trabajos/FanzineSaturninoYLasIdeas.jsx'
 
-// Importar trabajos individuales - Fotografía
+// Importar trabajosindividuales - Fotografía
 import SimpleMuebles from './trabajos/SimpleMuebles.jsx'
 import BarrioCafe from './trabajos/BarrioCafe.jsx'
 import VineraVinos from './trabajos/VineraVinos.jsx'
@@ -76,7 +76,7 @@ import Crisa2025 from './trabajos/Crisa2025.jsx'
 import Gaia from './trabajos/Gaia.jsx'
 import ViudaFederal2025Sesion from './trabajos/ViudaFederal2025Sesion.jsx'
 
-// Importar trabajos individuales - Vivo
+// Importar trabajosindividuales - Vivo
 import BrooksCiudadJardin from './trabajos/BrooksCiudadJardin.jsx'
 import BrooksLaberinto from './trabajos/BrooksLaberinto.jsx'
 import BrooksQuilmesRock from './trabajos/BrooksQuilmesRock.jsx'
@@ -95,7 +95,7 @@ import ViudaFederalMoscuVivo from './trabajos/ViudaFederalMoscuVivo.jsx'
 import ViudaFederalSala41 from './trabajos/ViudaFederalSala41.jsx'
 import VonFrixCamping from './trabajos/VonFrixCamping.jsx'
 
-// Importar trabajos individuales - Audiovisual
+// Importar trabajosindividuales - Audiovisual
 import Babeblade from './trabajos/Babeblade.jsx'
 import VonFrixSesion from './trabajos/VonFrixSesion.jsx'
 import BrocksShow from './trabajos/BrocksShow.jsx'
@@ -124,7 +124,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/audiovisual/sesiones-en-vivo" element={<SesionesEnVivo />} />
         <Route path="/audiovisual/shows-en-vivo" element={<ShowsEnVivo />} />
 
-        {/* Rutas de trabajos individuales - Flyers de Música */}
+        {/* Rutas de trabajosindividuales - Flyers de Música */}
         <Route path="/trabajo/adan-buenos-ayres" element={<AdanBuenosAyres />} />
         <Route path="/trabajo/bastro" element={<Bastro />} />
         <Route path="/trabajo/brooks-cafe-berlin" element={<BrooksCafeBerlin />} />
@@ -148,7 +148,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/trabajo/vol4-ciclo-vida-rnr" element={<Vol4CicloVidaRnR />} />
         <Route path="/trabajo/vol5-ciclo-vida-rnr" element={<Vol5CicloVidaRnR />} />
 
-        {/* Rutas de trabajos individuales - Tapas, Posters, Tarjetas, Fanzine */}
+        {/* Rutas de trabajosindividuales - Tapas, Posters, Tarjetas, Fanzine */}
         <Route path="/trabajo/tapa-bastro" element={<TapaBastro />} />
         <Route path="/trabajo/tapa-brocks" element={<TapaBrocks />} />
         <Route path="/trabajo/tapa-santiago-leavy" element={<TapaSantiagoLeavy />} />
@@ -161,7 +161,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/trabajo/tarjeta-martina-cano" element={<TarjetaMartinaCano />} />
         <Route path="/trabajo/fanzine-saturnino-y-las-ideas" element={<FanzineSaturninoYLasIdeas />} />
 
-        {/* Rutas de trabajos individuales - Fotografía */}
+        {/* Rutas de trabajosindividuales - Fotografía */}
         <Route path="/trabajo/simple-muebles" element={<SimpleMuebles />} />
         <Route path="/trabajo/barrio-cafe" element={<BarrioCafe />} />
         <Route path="/trabajo/vinera-vinos" element={<VineraVinos />} />
@@ -182,7 +182,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/trabajo/gaia" element={<Gaia />} />
         <Route path="/trabajo/viuda-federal-2025-sesion" element={<ViudaFederal2025Sesion />} />
 
-        {/* Rutas de trabajos individuales - Vivo */}
+        {/* Rutas de trabajosindividuales - Vivo */}
         <Route path="/trabajo/brooks-ciudad-jardin" element={<BrooksCiudadJardin />} />
         <Route path="/trabajo/brooks-laberinto" element={<BrooksLaberinto />} />
         <Route path="/trabajo/brooks-quilmes-rock" element={<BrooksQuilmesRock />} />
@@ -201,7 +201,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/trabajo/viuda-federal-sala-41" element={<ViudaFederalSala41 />} />
         <Route path="/trabajo/von-frix-camping" element={<VonFrixCamping />} />
 
-        {/* Rutas de trabajos individuales - Audiovisual */}
+        {/* Rutas de trabajosindividuales - Audiovisual */}
         <Route path="/trabajo/babeblade" element={<Babeblade />} />
         <Route path="/trabajo/von-frix-sesion" element={<VonFrixSesion />} />
         <Route path="/trabajo/brocks-show" element={<BrocksShow />} />

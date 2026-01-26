@@ -1,5 +1,5 @@
-﻿import React from "react";
-import ProyectosPage from "../ProyectosPage";
+import React from "react";
+import ProyectosPage from "../components/ProyectosPage";
 
 function SesionesEnVivo() {
   const proyectos = [

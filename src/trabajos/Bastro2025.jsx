@@ -1,12 +1,12 @@
-﻿import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import React from "react";
+import TrabajosPage from "../components/TrabajosPage";
 
 function Bastro2025() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1RSwP-AWn_dAsp9qBxQocrU77_EDbHRnd"
     ],
-    descripcion: "Fotos express realizadas para Bastro. Un domingo a la mañana nos metimos en un terreno abandonado de nuestro barrio y realizamos estas fotos.",
+    descripción: "Fotos express realizadas para Bastro. Un domingo a la ma�ana nos metimos en un terreno abandonado de nuestro barrio y realizamos estas fotos.",
     año: "2025"
   };
 

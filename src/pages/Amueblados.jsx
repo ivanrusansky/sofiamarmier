@@ -1,6 +1,6 @@
 
 import React from "react";
-import ProyectosPage from "../ProyectosPage";
+import ProyectosPage from "../components/ProyectosPage";
 
 function Amueblados() {
   const proyectos = [

@@ -74,7 +74,7 @@ function Index() {
                 setPhotoMenuOpen(!photoMenuOpen);
               }}
             >
-              <span>FOTOGRAFÍA</span>
+              <span>fotografia</span>
               <span className="menu-arrow">{photoMenuOpen ? '▲' : '▼'}</span>
             </a>
             {photoMenuOpen && (
@@ -91,7 +91,7 @@ function Index() {
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/grabaciones" className="submenu-item photo-sub">
-                  <span>GRABACIONES</span>
+                  <span>grabaciones</span>
                   <span className="submenu-number">#03</span>
                 </a>
                 <div className="submenu-divider"></div>
@@ -151,7 +151,8 @@ function Index() {
         <img src="/logo png.png" alt="Background" className="background-image" />
       </div> */}
       <div className="video-container">
-        <video src="/logo.mp4" className="background-video" autoPlay muted loop playsInline></video>
+        <video src="/logo en formato pc.mp4" className="background-video background-video-desktop" autoPlay muted loop playsInline></video>
+        <video src="/logo en formato celular con types de fondo .mp4" className="background-video background-video-mobile" autoPlay muted loop playsInline></video>
       </div>
     </>
   );

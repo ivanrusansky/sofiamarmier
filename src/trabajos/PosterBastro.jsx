@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function PosterBastro() {
   const trabajo = {
     imagenes: [
       "/proyectos/posters/bastro.jpg"
     ],
-    descripcion: "Póster para BASTRO",
+    descripción: "Póster para BASTRO",
     año: "2024"
   };
 

@@ -1,13 +1,13 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function BrooksDaltonicaYHormigasFC() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/brooks_daltonica_y_hormigas_fc/pag_1",
-      "/flyers_de_musica/brooks_daltonica_y_hormigas_fc/pag_2"
+      "/flyers_de_Música/brooks_daltonica_y_hormigas_fc/pag_1",
+      "/flyers_de_Música/brooks_daltonica_y_hormigas_fc/pag_2"
     ],
-    descripcion: "Flyer para el evento de Brooks, Daltónica y Hormigas FC",
+    descripción: "Flyer para el evento de Brooks, Daltónica y Hormigas FC",
     año: "2024"
   };
 

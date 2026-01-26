@@ -1,12 +1,12 @@
-﻿import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import React from "react";
+import TrabajosPage from "../components/TrabajosPage";
 
-function VonFrixSesion() {
+function VonFrixsesión() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1xAN9t46LyLFoGo1b74WGaWmR9BuWKIyi"
     ],
-    descripcion: "Sesión en vivo de Von Frix",
+    descripción: "sesión en vivo de Von Frix",
     año: "2024"
   };
 
@@ -21,4 +21,4 @@ function VonFrixSesion() {
   );
 }
 
-export default VonFrixSesion;
+export default VonFrixsesión;

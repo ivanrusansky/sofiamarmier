@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function TapaSaturnoYLasIdeas() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/d/15MHP5UvKMXmVVYigWoAaFQUORSh2V8C-"
     ],
-    descripcion: "Diseño de tapa para Saturno y Las Ideas",
+    descripción: "diseño de tapa para Saturno y Las Ideas",
     año: "2024"
   };
 

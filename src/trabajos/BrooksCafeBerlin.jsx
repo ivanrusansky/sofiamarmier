@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function BrooksCafeBerlin() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/brooks_cafe_berlin/pag_1"
+      "/flyers_de_Música/brooks_cafe_berlin/pag_1"
     ],
-    descripcion: "Flyer para Brooks en Café Berlin",
+    descripción: "Flyer para Brooks en Café Berlin",
     año: "2024"
   };
 

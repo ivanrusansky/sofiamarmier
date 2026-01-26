@@ -1,12 +1,12 @@
-﻿import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import React from "react";
+import TrabajosPage from "../components/TrabajosPage";
 
 function SaturninooYLasIdeasMagdalena() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1QxZbAefQGJvzYcE1aCtd59peAHMl9WPI"
     ],
-    descripcion: "Saturnino y las Ideas en el Estudio Magdalena, Haedo.",
+    descripción: "Saturnino y las Ideas en el Estudio Magdalena, Haedo.",
     año: "2025"
   };
 

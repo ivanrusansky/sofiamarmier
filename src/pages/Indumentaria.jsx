@@ -1,13 +1,13 @@
-﻿import React from "react";
-import ProyectosPage from "../ProyectosPage";
+import React from "react";
+import ProyectosPage from "../components/ProyectosPage";
 
 function Indumentaria() {
   const proyectos = [
     {
-      nombre: "IMP SALE OTOÑO",
+      nombre: "IMP SALE Otoño",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/u/0/d/1bx-SSsBe1RXi55uaybQhQPf1PBnKFtvK",
-      ruta: "/trabajo/imp-sale-otono"
+      ruta: "/trabajo/imp-sale-Otoño"
     },
     {
       nombre: "JULIANA FAYAD",
@@ -23,7 +23,7 @@ function Indumentaria() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="INDUMENTARIA" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotograf�a" titulo="INDUMENTARIA" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Indumentaria;

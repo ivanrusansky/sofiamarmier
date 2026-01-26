@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function Vol2CicloVidaRnR() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/vol_2_ciclo_vida_rnr/volumen_2_1_jpg"
+      "/flyers_de_Música/vol_2_ciclo_vida_rnr/volumen_2_1_jpg"
     ],
-    descripcion: "Flyer para Volumen 2 del Ciclo Vida RnR",
+    descripción: "Flyer para Volumen 2 del Ciclo Vida RnR",
     año: "2024"
   };
 

@@ -1,12 +1,12 @@
-﻿import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import React from "react";
+import TrabajosPage from "../components/TrabajosPage";
 
 function Gaia() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/17_gu2V5eghmfpXT0imB7d7cNVOrXB2-P"
     ],
-    descripcion: "Sesión fotográfica de Gaia",
+    descripción: "sesión fotográfica de Gaia",
     año: "2024"
   };
 

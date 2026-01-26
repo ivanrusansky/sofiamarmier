@@ -60,7 +60,6 @@ body {
   color: #222;
   padding: 0.8rem 0;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,8 +104,8 @@ body {
   width: 100%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(3.5px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(4px);
   z-index: 999;
   display: flex;
   align-items: flex-start;
@@ -233,21 +232,21 @@ body {
 /* Ajuste video logo index */
 .video-container {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-top: 60px;
-  position: relative;
-  z-index: 1;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
   box-sizing: border-box;
   background: #fff;
   overflow: hidden;
 }
 
+
 .background-video {
-  max-width: 420px;
-  width: 40vw;
-  height: auto;
   border-radius: 0;
   box-shadow: none;
   opacity: 0.97;
@@ -256,6 +255,19 @@ body {
   background: #fff;
   display: block;
   mix-blend-mode: multiply;
+}
+
+/* Video para desktop - fullscreen */
+.background-video-desktop {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+/* Video para mobile - ocultar en desktop */
+.background-video-mobile {
+  display: none;
 }
 
 @media (max-width: 600px) {
@@ -347,5 +359,18 @@ body {
     background: #fff;
     display: block;
     mix-blend-mode: multiply;
+  }
+
+  /* En mobile: mostrar video mobile y ocultar desktop */
+  .background-video-desktop {
+    display: none !important;
+  }
+
+  .background-video-mobile {
+    display: block !important;
+    width: 90vw;
+    max-width: 90vw;
+    height: auto;
+    position: static;
   }
 }

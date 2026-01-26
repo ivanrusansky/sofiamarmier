@@ -1,12 +1,12 @@
-﻿import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import React from "react";
+import TrabajosPage from "../components/TrabajosPage";
 
 function HilarioProserpioShow() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/161Q2R1I9iWzKtd_x3vnX71jmn6M8XBMY"
     ],
-    descripcion: "Show en vivo de Hilario Proserpio",
+    descripción: "Show en vivo de Hilario Proserpio",
     año: "2024"
   };
 

@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function ViudaFederalMoscu() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_moscu/pag_1"
+      "/flyers_de_Música/viuda_federal_moscu/pag_1"
     ],
-    descripcion: "Flyer para Viuda Federal en Moscú",
+    descripción: "Flyer para Viuda Federal en Moscú",
       año: "2024"
   };
 

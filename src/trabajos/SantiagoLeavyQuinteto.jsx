@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function SantiagoLeavyQuinteto() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/santiago_leavy_quinteto/flyer_jpg"
+      "/flyers_de_Música/santiago_leavy_quinteto/flyer_jpg"
     ],
-    descripcion: "Flyer para Santiago Leavy Quinteto",
+    descripción: "Flyer para Santiago Leavy Quinteto",
     año: "2024"
   };
 

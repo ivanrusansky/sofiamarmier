@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function CrisaLaCasona() {
   const trabajo = {
     imagenes: [
       "/proyectos/grabaciones/crisa-la-casona.jpg"
     ],
-    descripcion: "Sesión fotográfica de grabación de Crisá en La Casona",
+    descripción: "sesión fotográfica de grabación de Crisá en La Casona",
     año: "2024"
   };
 

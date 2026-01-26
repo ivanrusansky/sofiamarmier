@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function BrooksYViudaFederal() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/brooks_y_viuda_federal/visualizador_1_jpg"
+      "/flyers_de_Música/brooks_y_viuda_federal/visualizador_1_jpg"
     ],
-    descripcion: "Flyer para el evento de Brooks y Viuda Federal",
+    descripción: "Flyer para el evento de Brooks y Viuda Federal",
     año: "2024"
   };
 

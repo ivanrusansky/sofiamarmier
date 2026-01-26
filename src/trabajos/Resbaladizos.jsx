@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function Resbaladizos() {
   const trabajo = {
     imagenes: [
       "/proyectos/shows-en-vivo/resbaladizos.jpg"
     ],
-    descripcion: "Show en vivo de Resbaladizos",
+    descripción: "Show en vivo de Resbaladizos",
     año: "2024"
   };
 
