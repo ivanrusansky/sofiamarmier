@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function ViudaFederalYKons() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_y_kons/flyer_3_jpg"
+      "/flyers_de_Música/viuda_federal_y_kons/flyer_3_jpg"
     ],
-    descripcion: "Flyer para Viuda Federal y Kons",
+    descripción: "Flyer para Viuda Federal y Kons",
     año: "2024"
   };
 

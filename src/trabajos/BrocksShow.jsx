@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function BrocksShow() {
   const trabajo = {
     imagenes: [
       "/proyectos/shows-en-vivo/brocks.jpg"
     ],
-    descripcion: "Show en vivo de Brocks",
+    descripción: "Show en vivo de Brocks",
     año: "2024"
   };
 

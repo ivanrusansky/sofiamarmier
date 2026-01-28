@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function SadPopClub() {
   const trabajo = {
     imagenes: [
       "/proyectos/shows-en-vivo/sad-pop-club.jpg"
     ],
-    descripcion: "Cobertura para Sad Pop Club, productora que trajo a Estoy Bien (CHILE) .",
+    descripción: "Cobertura para Sad Pop Club, productora que trajo a Estoy Bien (CHILE) .",
     año: "2025"
   };
 

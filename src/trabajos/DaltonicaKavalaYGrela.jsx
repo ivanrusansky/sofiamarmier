@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function DaltonicaKavalaYGrela() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/daltonica_kavala_y_grela/flyers_3_jpg"
+      "/flyers_de_Música/daltonica_kavala_y_grela/flyers_3_jpg"
     ],
-    descripcion: "Flyer para Daltónica, Kavala y Grela",
+    descripción: "Flyer para Daltónica, Kavala y Grela",
     año: "2024"
   };
 

@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function TapaBastro() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1sWXAt5dyYSJz0qj-OWbKhZExF9JlNgsq"
     ],
-    descripcion: "Diseño de tapa para BASTRO",
+    descripción: "diseño de tapa para BASTRO",
     año: "2024"
   };
 

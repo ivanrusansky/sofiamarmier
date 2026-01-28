@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function PosterElMatoNocheNegra() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1s7gghIWP1_0Jycyr4DIYYZJnipfQMalB"
     ],
-    descripcion: "Póster para El Mato - Noche Negra",
+    descripción: "Póster para El Mato - Noche Negra",
     año: "2024"
   };
 

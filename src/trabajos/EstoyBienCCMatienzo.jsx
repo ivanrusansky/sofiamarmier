@@ -1,12 +1,12 @@
-﻿import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import React from "react";
+import TrabajosPage from "../components/TrabajosPage";
 
 function EstoyBienCCMatienzo() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1YH64QjWKfzP6grtj51h5jRevp3Rb_Ov-"
     ],
-    descripcion: "Fotografía en vivo de Estoy Bien en CC Matienzo",
+    descripción: "fotografía en vivo de Estoy Bien en CC Matienzo",
     año: "2024"
   };
 

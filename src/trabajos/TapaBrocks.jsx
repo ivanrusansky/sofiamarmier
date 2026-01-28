@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function TapaBrocks() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/d/112BbyLRb9aAcdOqrzSzWTo6HiLPmAl0Z"
     ],
-    descripcion: "Diseño de tapa para Brocks",
+    descripción: "diseño de tapa para Brocks",
     año: "2024"
   };
 

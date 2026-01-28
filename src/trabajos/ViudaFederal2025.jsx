@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function ViudaFederal2025() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_2025/intento_3_jpg"
+      "/flyers_de_Música/viuda_federal_2025/intento_3_jpg"
     ],
-    descripcion: "Flyer para Viuda Federal 2025",
+    descripción: "Flyer para Viuda Federal 2025",
     año: "2025"
   };
 

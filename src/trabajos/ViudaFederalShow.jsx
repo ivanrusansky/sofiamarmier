@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function ViudaFederalShow() {
   const trabajo = {
     imagenes: [
       "/proyectos/shows-en-vivo/viuda-federal.jpg"
     ],
-    descripcion: "Show en vivo de Viuda Federal",
+    descripción: "Show en vivo de Viuda Federal",
     año: "2024"
   };
 

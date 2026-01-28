@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function HilarioProserpio() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/hilario_proserpio/flyer_jpg"
+      "/flyers_de_Música/hilario_proserpio/flyer_jpg"
     ],
-    descripcion: "Flyer para el show de Hilario Proserpio",
+    descripción: "Flyer para el show de Hilario Proserpio",
     año: "2024"
   };
 

@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function PosterIndioSolariTandil() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1YCdjQ5izsyG8FfS5HdXO4Fl-roXCQucN"
     ],
-    descripcion: "Póster para Indio Solari en Tandil",
+    descripción: "Póster para Indio Solari en Tandil",
     año: "2024"
   };
 

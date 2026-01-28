@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function BrooksTheRoxy() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/brooks_the_roxy/pag_1"
+      "/flyers_de_Música/brooks_the_roxy/pag_1"
     ],
-    descripcion: "Flyer para Brooks en The Roxy",
+    descripción: "Flyer para Brooks en The Roxy",
     año: "2024"
   };
 

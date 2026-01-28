@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function SimpleMuebles() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1fcgJAqH6fENU-CLaBk_oLSd2OQYkY07O"
     ],
-    descripcion: "Sesión de fotos para Simple Muebles. Estas imágenes fueron utilizadas para redes sociales y página web. Estudio Deofi.",
+    descripción: "sesión de fotos para Simple Muebles. Estas imágenes fueron utilizadas para redes sociales y página web. Estudio Deofi.",
     año: "2025"
   };
 

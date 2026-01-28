@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function TarjetaIvanRusansky() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/d/10mlk7vUYqmJ-RttFPI5PYV3Flv0p1w7E"
     ],
-    descripcion: "Diseño de tarjeta personal para Iván Rusansky",
+    descripción: "diseño de tarjeta personal para Iván Rusansky",
     año: "2024"
   };
 

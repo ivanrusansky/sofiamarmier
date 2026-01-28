@@ -1,19 +1,19 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
-function SofiaPereyraIrinaSofaZilaYOliCuan() {
+function SofíaPereyraIrinaSofaZilaYOliCuan() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/sofia_pereyra_irina_sofa_zila_y_oli_cuan/flyer_jpg"
+      "/flyers_de_Música/Sofía_pereyra_irina_sofa_zila_y_oli_cuan/flyer_jpg"
     ],
-    descripcion: "Flyer para el evento de Sofía Pereyra, Irina, Sofa, Zila y Oli Cuán",
+    descripción: "Flyer para el evento de Sofía Pereyra, Irina, Sofa, Zila y Oli Cuán",
     año: "2024"
   };
 
   return (
     <TrabajosPage
       categoria="diseño gráfico"
-      titulo="SOFÍA PEREYRA IRINA SOFA ZILA Y OLI CUÁN"
+      titulo="Sofía PEREYRA IRINA SOFA ZILA Y OLI CUÁN"
       trabajo={trabajo}
       colorHover="#bbbbbb"
       rutaVolver="/diseno-grafico/flyers-de-musica"
@@ -21,4 +21,4 @@ function SofiaPereyraIrinaSofaZilaYOliCuan() {
   );
 }
 
-export default SofiaPereyraIrinaSofaZilaYOliCuan;
+export default SofíaPereyraIrinaSofaZilaYOliCuan;

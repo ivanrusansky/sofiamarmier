@@ -1,5 +1,5 @@
 import React from "react";
-import ProyectosPage from "../ProyectosPage";
+import ProyectosPage from "../components/ProyectosPage";
 
 function Tarjetas() {
   const proyectos = [
@@ -10,7 +10,7 @@ function Tarjetas() {
       ruta: "/trabajo/tarjeta-ivan-rusansky"
     },
     {
-      nombre: "MARTINA CANO",
+      nombre: "MartínA CANO",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/d/1o3oITXnvfUkb2S_wQZvv3YN9BHKvgZk6",
       ruta: "/trabajo/tarjeta-martina-cano"

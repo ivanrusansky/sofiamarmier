@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function FanzineSaturninoYLasIdeas() {
   const trabajo = {
     imagenes: [
       "/proyectos/fanzine/saturno-y-las-ideas.jpg"
     ],
-    descripcion: "Fanzine para Saturnino y Las Ideas",
+    descripción: "Fanzine para Saturnino y Las Ideas",
     año: "2024"
   };
 

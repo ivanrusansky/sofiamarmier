@@ -1,12 +1,12 @@
 import React from "react";
-import TrabajosPage from "../TrabajosPage";
+import TrabajosPage from "../components/TrabajosPage";
 
 function ViudaFederalPreEscucha() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_pre_escucha/flyer_1_png"
+      "/flyers_de_Música/viuda_federal_pre_escucha/flyer_1_png"
     ],
-    descripcion: "Flyer para Pre-escucha de Viuda Federal",
+    descripción: "Flyer para Pre-escucha de Viuda Federal",
     año: "2024"
   };
 
