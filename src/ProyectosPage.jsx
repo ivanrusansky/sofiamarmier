@@ -9,7 +9,7 @@ function ProyectosPage({ categoria, titulo, proyectos, colorHover }) {
         <Link to="/" className="navbar-brand">sofia marmier</Link>
         <ul>
           <li>
-            <Link to="/">VOLVER</Link>
+            <Link to="/" className="navbar-proyectos">[volver]</Link>
           </li>
         </ul>
       </nav>

@@ -1,3 +1,41 @@
+.navbar-brand-custom {
+  font-size: 0.9rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #222;
+  font-family: 'Satoshi', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin-left: 3% !important;
+}
+
+.navbar-proyectos {
+  font-size: 0.9rem;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+.video-pc {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  background: #fff;
+}
+.video-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .video-pc {
+    display: none !important;
+  }
+  .video-mobile {
+    display: block !important;
+  }
+}
 
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
 
@@ -60,7 +98,6 @@ body {
   color: #222;
   padding: 0.8rem 0;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,8 +142,8 @@ body {
   width: 100%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(3.5px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(5px);
   z-index: 999;
   display: flex;
   align-items: flex-start;
@@ -167,10 +204,10 @@ body {
 }
 
 .submenu-item {
-  color: #383838;
+  color: #1f1f1f;
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 1px;
   transition: color 0.2s;
   padding: 2rem 1.5rem;
@@ -183,6 +220,11 @@ body {
   border: none;
   box-sizing: border-box;
   filter: blur(0.4px);
+}
+
+.submenu-item.photo-sub,
+.submenu-item.audio-sub {
+  font-weight: 300;
 }
 
 .submenu-item:hover {
@@ -198,8 +240,8 @@ body {
 }
 
 .submenu-number {
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 300;
   color: inherit;
   font-variant-numeric: tabular-nums;
   text-align: right;
@@ -217,7 +259,7 @@ body {
   box-sizing: border-box;
 }
 
-/* Logo index - desktop */
+
 .background-image {
   max-width: 420px;
   width: 40vw;
@@ -230,7 +272,7 @@ body {
   opacity: 0.95;
 }
 
-/* Ajuste video logo index */
+
 .video-container {
   width: 100%;
   display: flex;
@@ -256,6 +298,19 @@ body {
   background: #fff;
   display: block;
   mix-blend-mode: multiply;
+}
+
+
+.video-pc.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: 100vw !important;
+  object-fit: cover;
+  z-index: -1;
+  margin: 0;
 }
 
 @media (max-width: 600px) {

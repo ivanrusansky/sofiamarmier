@@ -10,11 +10,11 @@ function Index() {
   return (
     <>
       <nav className="navbar">
-        <span className="navbar-brand">sofia marmier</span>
+        <span className="navbar-brand navbar-brand-custom">sofia marmier</span>
         <ul>
           <li>
-            <a href="#" onClick={(e) => { e.preventDefault(); setDropdownOpen(!dropdownOpen); }}>
-              MIS PROYECTOS
+            <a href="#" className="navbar-proyectos" onClick={(e) => { e.preventDefault(); setDropdownOpen(!dropdownOpen); }}>
+              [mis proyectos]
             </a>
           </li>
         </ul>
@@ -39,27 +39,27 @@ function Index() {
               <>
                 <div className="submenu-divider"></div>
                 <a href="/diseno-grafico/fanzine" className="submenu-item">
-                  <span>FANZINE</span>
+                  <span>fanzine</span>
                   <span className="submenu-number">#01</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/diseno-grafico/flyers-de-musica" className="submenu-item">
-                  <span>FLYERS DE MÚSICA</span>
+                  <span>flyers de música</span>
                   <span className="submenu-number">#02</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/diseno-grafico/posters" className="submenu-item">
-                  <span>POSTERS</span>
+                  <span>posters</span>
                   <span className="submenu-number">#03</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/diseno-grafico/tapas" className="submenu-item">
-                  <span>TAPAS</span>
+                  <span>tapas</span>
                   <span className="submenu-number">#04</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/diseno-grafico/tarjetas" className="submenu-item">
-                  <span>TARJETAS</span>
+                  <span>tarjetas</span>
                   <span className="submenu-number">#05</span>
                 </a>
                 <div className="submenu-divider"></div>
@@ -81,37 +81,37 @@ function Index() {
               <>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/amueblados" className="submenu-item photo-sub">
-                  <span>AMUEBLADOS</span>
+                  <span>amueblados</span>
                   <span className="submenu-number">#01</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/gastronomia" className="submenu-item photo-sub">
-                  <span>GASTRONOMÍA</span>
+                  <span>gastronomía</span>
                   <span className="submenu-number">#02</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/grabaciones" className="submenu-item photo-sub">
-                  <span>GRABACIONES</span>
+                  <span>grabaciones</span>
                   <span className="submenu-number">#03</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/indumentaria" className="submenu-item photo-sub">
-                  <span>INDUMENTARIA</span>
+                  <span>indumentaria</span>
                   <span className="submenu-number">#04</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/negativos" className="submenu-item photo-sub">
-                  <span>NEGATIVOS</span>
+                  <span>negativos</span>
                   <span className="submenu-number">#05</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/sesiones" className="submenu-item photo-sub">
-                  <span>SESIONES</span>
+                  <span>sesiones</span>
                   <span className="submenu-number">#06</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/fotografia/vivo" className="submenu-item photo-sub">
-                  <span>VIVO</span>
+                  <span>vivo</span>
                   <span className="submenu-number">#07</span>
                 </a>
                 <div className="submenu-divider"></div>
@@ -133,12 +133,12 @@ function Index() {
               <>
                 <div className="submenu-divider"></div>
                 <a href="/audiovisual/sesiones-en-vivo" className="submenu-item audio-sub">
-                  <span>SESIONES EN VIVO</span>
+                  <span>sesiones en vivo</span>
                   <span className="submenu-number">#01</span>
                 </a>
                 <div className="submenu-divider"></div>
                 <a href="/audiovisual/shows-en-vivo" className="submenu-item audio-sub">
-                  <span>SHOWS EN VIVO</span>
+                  <span>shows en vivo</span>
                   <span className="submenu-number">#02</span>
                 </a>
                 <div className="submenu-divider"></div>
@@ -151,7 +151,26 @@ function Index() {
         <img src="/logo png.png" alt="Background" className="background-image" />
       </div> */}
       <div className="video-container">
-        <video src="/logo.mp4" className="background-video" autoPlay muted loop playsInline></video>
+        {/* Video para PC */}
+        <video
+          src="/logo en formato pc.mp4"
+          className="background-video video-pc"
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={{ display: window.innerWidth > 768 ? 'block' : 'none' }}
+        ></video>
+        {/* Video para Celular */}
+        <video
+          src="/logo en formato celular con types de fondo .mp4"
+          className="background-video video-mobile"
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={{ display: window.innerWidth <= 768 ? 'block' : 'none' }}
+        ></video>
       </div>
     </>
   );

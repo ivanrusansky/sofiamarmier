@@ -176,3 +176,23 @@
     line-height: 1.3;
   }
 }
+
+/* Estilo para el enlace [volver] igual a [mis proyectos] */
+.navbar .navbar-proyectos {
+  font-size: 0.9rem !important;
+  font-weight: 200 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: lowercase !important;
+  color: #313131 !important;
+  text-decoration: none !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 1.2rem 0 0 !important;
+  cursor: pointer !important;
+  transition: color 0.2s !important;
+}
+
+.navbar .navbar-proyectos:hover {
+  color: #111111 !important;
+}

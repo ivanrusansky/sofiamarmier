@@ -5,7 +5,7 @@ import ProyectosPage from "../ProyectosPage";
 function Amueblados() {
   const proyectos = [
     {
-      nombre: "Simple Muebles",
+      nombre: "SIMPLE MUEBLES",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/d/1fcgJAqH6fENU-CLaBk_oLSd2OQYkY07O",
       ruta: "/trabajo/simple-muebles"

@@ -9,7 +9,7 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
         <Link to="/" className="navbar-brand">sofia marmier</Link>
         <ul>
           <li>
-            <Link to={rutaVolver}>VOLVER</Link>
+            <Link to={rutaVolver} className="navbar-proyectos">[volver]</Link>
           </li>
         </ul>
       </nav>
@@ -32,13 +32,11 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
 
           <div className="trabajo-info-contenedor">
             <div className="trabajo-header">
-              <span className="trabajo-categoria">{categoria}</span>
               <h1 className="trabajo-titulo">{titulo}</h1>
             </div>
 
             {trabajo.descripcion && (
               <div className="trabajo-descripcion">
-                <h2>Descripción</h2>
                 <p>{trabajo.descripcion}</p>
               </div>
             )}
@@ -51,9 +49,9 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
             )}
 
             {trabajo.año && (
-              <div className="trabajo-info-item">
-                <h3>Año</h3>
-                <p>{trabajo.año}</p>
+              <div className="trabajo-info-item trabajo-año">
+                <span className="año-label">año</span>
+                <span className="año-numero">{trabajo.año}</span>
               </div>
             )}
 
@@ -77,7 +75,7 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
 
           <div className="trabajo-footer">
             <Link to={rutaVolver} className="btn-volver" style={{ '--hover-color': colorHover }}>
-              ← volver a {categoria.toUpperCase()}
+              volver a {categoria.toLowerCase()}
             </Link>
           </div>
         </div>
