@@ -191,7 +191,7 @@
 }
 
 .btn-volver:hover {
-  background: var(--hover-color, #fff);
+  background: #484646;
   color: #f0f0f0;
 }
 
