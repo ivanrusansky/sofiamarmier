@@ -1,15 +1,49 @@
+@font-face {
+  font-family: 'Swansea';
+  src: url('/FONTS/Swansea.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swansea';
+  src: url('/FONTS/SwanseaItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Swansea';
+  src: url('/FONTS/SwanseaBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swansea';
+  src: url('/FONTS/SwanseaBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Andale Mono';
+  src: url('/FONTS/AndaleMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar-brand-custom {
-  font-size: 0.9rem;
-  font-weight: 200;
-  letter-spacing: 2px;
-  color: #222;
-  font-family: 'Satoshi', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 40px;
+  width: auto;
   margin-left: 3% !important;
+  cursor: default;
 }
 
 .navbar-proyectos {
+  font-family: 'Andale Mono', monospace;
   font-size: 0.9rem;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 0.5px;
 }
 
@@ -37,10 +71,8 @@
   }
 }
 
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
-
 :root {
-  font-family: 'Satoshi', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Swansea', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #222;
@@ -52,7 +84,7 @@
 }
 
 a {
-  font-weight: 500;
+  font-weight: 400;
   color: #313131;
   text-decoration: inherit;
 }
@@ -106,7 +138,7 @@ body {
 
 .navbar-brand {
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-left: 1.2rem;
   letter-spacing: 1px;
   color: #222;
@@ -204,10 +236,11 @@ body {
 }
 
 .submenu-item {
-  color: #1f1f1f;
+  font-family: 'Andale Mono', monospace;
+  color: #2b2b2b;
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   transition: color 0.2s;
   padding: 2rem 1.5rem;
@@ -224,7 +257,7 @@ body {
 
 .submenu-item.photo-sub,
 .submenu-item.audio-sub {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .submenu-item:hover {
@@ -240,8 +273,9 @@ body {
 }
 
 .submenu-number {
+  font-family: 'Andale Mono', monospace;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   color: inherit;
   font-variant-numeric: tabular-nums;
   text-align: right;
@@ -251,8 +285,8 @@ body {
 .submenu-divider {
   width: 104%;
   margin: -1.2rem;
-  height: 3px;
-  background: #38383883;
+  height: 1px;
+  background: #0f0f0fbe;
   border: none;
   animation: slideIn 0.3s ease;
   filter: blur(0.78px);
