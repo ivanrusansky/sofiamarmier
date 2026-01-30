@@ -6,7 +6,9 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-brand">sofia marmier</Link>
+        <Link to="/" className="navbar-brand">
+          <img src="/logopng.png" alt="sofia marmier" />
+        </Link>
         <ul>
           <li>
             <Link to={rutaVolver} className="navbar-proyectos">[volver]</Link>

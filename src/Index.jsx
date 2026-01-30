@@ -10,7 +10,7 @@ function Index() {
   return (
     <>
       <nav className="navbar">
-        <span className="navbar-brand navbar-brand-custom">sofia marmier</span>
+        <img src="/logopng.png" alt="sofia marmier" className="navbar-brand navbar-brand-custom" />
         <ul>
           <li>
             <a href="#" className="navbar-proyectos" onClick={(e) => { e.preventDefault(); setDropdownOpen(!dropdownOpen); }}>

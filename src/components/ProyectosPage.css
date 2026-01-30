@@ -1,15 +1,18 @@
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
 
 .proyectos-container {
   margin-top: 60px;
   padding: 4rem 0;
-  font-family: 'Satoshi', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Swansea', system-ui, Avenir, Helvetica, Arial, sans-serif;
   min-height: 100vh;
   background: #f0eeea;
 }
 
 .proyectos-titulo {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 4rem;
   margin-left: 2rem;
@@ -83,7 +86,7 @@
 
 .proyecto-info h3 {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 0.8rem 0;
   color: #f0f0f0;
 }
@@ -179,8 +182,9 @@
 
 /* Estilo para el enlace [volver] igual a [mis proyectos] */
 .navbar .navbar-proyectos {
+  font-family: 'Andale Mono', monospace !important;
   font-size: 0.9rem !important;
-  font-weight: 200 !important;
+  font-weight: 400 !important;
   letter-spacing: 0.5px !important;
   text-transform: lowercase !important;
   color: #313131 !important;
