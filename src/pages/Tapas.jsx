@@ -1,5 +1,5 @@
 import React from "react";
-import ProyectosPage from "../components/ProyectosPage";
+import ProyectosPage from "../ProyectosPage";
 
 function Tapas() {
   const proyectos = [
@@ -13,7 +13,7 @@ function Tapas() {
       nombre: "BROOKS",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/d/112BbyLRb9aAcdOqrzSzWTo6HiLPmAl0Z",
-      ruta: "/trabajo/tapa-brooks"
+      ruta: "/trabajo/tapa-brocks"
     },
     {
       nombre: "SANTIAGO LEAVY",

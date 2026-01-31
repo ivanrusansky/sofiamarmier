@@ -1,5 +1,5 @@
 import React from "react";
-import TrabajosPage from "../components/TrabajosPage";
+import TrabajosPage from "../TrabajosPage";
 
 function Vol3CicloVidaRnR() {
   const trabajo = {

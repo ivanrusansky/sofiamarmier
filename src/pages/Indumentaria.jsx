@@ -1,5 +1,5 @@
 import React from "react";
-import ProyectosPage from "../components/ProyectosPage";
+import ProyectosPage from "../ProyectosPage";
 
 function Indumentaria() {
   const proyectos = [
@@ -7,7 +7,7 @@ function Indumentaria() {
       nombre: "IMP SALE Otoño",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/u/0/d/1bx-SSsBe1RXi55uaybQhQPf1PBnKFtvK",
-      ruta: "/trabajo/imp-sale-Otoño"
+      ruta: "/trabajo/imp-sale-otono"
     },
     {
       nombre: "JULIANA FAYAD",

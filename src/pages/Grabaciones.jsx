@@ -1,5 +1,5 @@
 import React from "react";
-import ProyectosPage from "../components/ProyectosPage";
+import ProyectosPage from "../ProyectosPage";
 
 function Grabaciones() {
   const proyectos = [
@@ -20,7 +20,7 @@ function Grabaciones() {
       descripcion: "",
       imagen: "/proyectos/grabaciones/CRISÁ-la-casona.jpg",
       sinImagen: true,
-      ruta: "/trabajo/CRISÁ-la-casona"
+      ruta: "/trabajo/crisa-la-casona"
     },
     {
       nombre: "SATURNINOO Y LAS IDEAS, MAGDALENA SOUND",

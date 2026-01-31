@@ -1,5 +1,5 @@
 import React from "react";
-import ProyectosPage from "../components/ProyectosPage";
+import ProyectosPage from "../ProyectosPage";
 
 function Sesiones() {
   const proyectos = [
@@ -13,13 +13,13 @@ function Sesiones() {
       nombre: "CRISÁ 2023",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/u/0/d/1iJB_lUrj4bcPyAkuxv_na7-tukc__FgY",
-      ruta: "/trabajo/CRISÁ-2023"
+      ruta: "/trabajo/crisa-2023"
     },
     {
       nombre: "CRISÁ 2025",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/u/0/d/1H4AfMde95tzlnJxr7N9iquy0HPaaP9c6",
-      ruta: "/trabajo/CRISÁ-2025"
+      ruta: "/trabajo/crisa-2025"
     },
     {
       nombre: "GAIA",

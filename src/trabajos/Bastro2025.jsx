@@ -1,5 +1,5 @@
 import React from "react";
-import TrabajosPage from "../components/TrabajosPage";
+import TrabajosPage from "../TrabajosPage";
 
 function Bastro2025() {
   const trabajo = {

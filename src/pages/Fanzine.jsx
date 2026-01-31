@@ -1,5 +1,5 @@
 import React from "react";
-import ProyectosPage from "../components/ProyectosPage";
+import ProyectosPage from "../ProyectosPage";
 
 function Fanzine() {
   const proyectos = [
