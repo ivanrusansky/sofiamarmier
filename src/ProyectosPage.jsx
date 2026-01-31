@@ -35,6 +35,7 @@ function ProyectosPage({ categoria, titulo, proyectos, colorHover }) {
                   <img
                     src={proyecto.imagen}
                     alt={proyecto.nombre}
+                    onLoad={(e) => { e.target.classList.add('loaded'); }}
                     onError={(e) => { e.target.style.display = 'none'; }}
                   />
                 </div>
