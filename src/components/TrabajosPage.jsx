@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./TrabajosPage.css";
 
 function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <nav className="navbar">
@@ -25,6 +29,7 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
                   <img
                     src={imagen}
                     alt={`${titulo} - imagen ${index + 1}`}
+                    onLoad={(e) => { e.target.classList.add('loaded'); }}
                     onError={(e) => { e.target.style.display = 'none'; }}
                   />
                 </div>
