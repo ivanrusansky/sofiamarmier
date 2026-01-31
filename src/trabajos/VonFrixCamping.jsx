@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function VonFrixCamping() {
@@ -6,7 +6,7 @@ function VonFrixCamping() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/11m0O7wYjmXuP-2YUWCojxS7a2DsYBFyN=w1000"
     ],
-    descripción: "Cobertura para Von Frix en Camping.",
+    descripcion: "Cobertura para Von Frix en Camping.",
     año: "2025"
   };
 

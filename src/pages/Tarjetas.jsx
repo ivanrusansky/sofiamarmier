@@ -10,7 +10,7 @@ function Tarjetas() {
       ruta: "/trabajo/tarjeta-ivan-rusansky"
     },
     {
-      nombre: "MartínA CANO",
+      nombre: "MARTINA CANO",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/d/1o3oITXnvfUkb2S_wQZvv3YN9BHKvgZk6",
       ruta: "/trabajo/tarjeta-martina-cano"

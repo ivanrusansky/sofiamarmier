@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function CrisaAuditorioOeste() {
@@ -6,14 +6,14 @@ function CrisaAuditorioOeste() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1ViyYU0mS8Qtf8nWiare1-WayOm46gAuW"
     ],
-    descripción: "Cobertura para Cris� en el Auditorio Oeste.",
+    descripcion: "Cobertura para Crisá en el Auditorio Oeste.",
     año: "2025"
   };
 
   return (
     <TrabajosPage
       categoria="fotografía"
-      titulo="CRIS� AUDITORIO OESTE"
+      titulo="CRISÁ AUDITORIO OESTE"
       trabajo={trabajo}
       colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"

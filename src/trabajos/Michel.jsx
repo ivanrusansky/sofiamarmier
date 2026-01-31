@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function Michel() {
@@ -6,7 +6,7 @@ function Michel() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1fFcJulkLCIzbpBmoW4bP3Yb2xZhnIvZH"
     ],
-    descripción: `sesión de fotos para Michel.\nEstilismo por Denisse Calzone.\nModelos Camila Herman y Pedro Oliver\nEstudio Deofi`,
+    descripcion: `Sesión de fotos para Michel.\nEstilismo por Denisse Calzone.\nModelos Camila Herman y Pedro Oliver\nEstudio Deofi`,
     año: "2024"
   };
 

@@ -6,7 +6,7 @@ function PosterElMatoNocheNegra() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1s7gghIWP1_0Jycyr4DIYYZJnipfQMalB"
     ],
-    descripción: "Póster para El Mato - Noche Negra",
+    descripcion: "Póster para El Mato - Noche Negra",
     año: "2024"
   };
 

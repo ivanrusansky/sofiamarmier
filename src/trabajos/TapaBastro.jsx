@@ -6,7 +6,7 @@ function TapaBastro() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1sWXAt5dyYSJz0qj-OWbKhZExF9JlNgsq"
     ],
-    descripción: "diseño de tapa para BASTRO",
+    descripcion: "Diseño de tapa para BASTRO",
     año: "2024"
   };
 

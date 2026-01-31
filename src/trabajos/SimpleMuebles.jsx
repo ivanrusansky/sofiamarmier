@@ -6,7 +6,7 @@ function SimpleMuebles() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1fcgJAqH6fENU-CLaBk_oLSd2OQYkY07O"
     ],
-    descripción: "sesión de fotos para Simple Muebles. Estas imágenes fueron utilizadas para redes sociales y página web. Estudio Deofi.",
+    descripcion: "Sesión de fotos para Simple Muebles. Estas imágenes fueron utilizadas para redes sociales y página web. Estudio Deofi.",
     año: "2025"
   };
 

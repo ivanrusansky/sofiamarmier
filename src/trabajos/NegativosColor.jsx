@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function NegativosColor() {
@@ -6,7 +6,7 @@ function NegativosColor() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/14TQzvvpozfZwN7d_uklfMjW-FooShXMb"
     ],
-    descripción: "Serie fotográfica en color",
+    descripcion: "Serie fotográfica en color",
     año: "2024"
   };
 

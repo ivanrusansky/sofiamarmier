@@ -6,7 +6,7 @@ function CrisaLaCasona() {
     imagenes: [
       "/proyectos/grabaciones/crisa-la-casona.jpg"
     ],
-    descripción: "sesión fotográfica de grabación de Crisá en La Casona",
+    descripcion: "Sesión fotográfica de grabación de Crisá en La Casona",
     año: "2024"
   };
 

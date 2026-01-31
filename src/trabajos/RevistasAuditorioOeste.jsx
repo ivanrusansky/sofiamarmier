@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function RevistasAuditorioOeste() {
@@ -6,7 +6,7 @@ function RevistasAuditorioOeste() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1gQ9DGdjed0Jkr9JGQNR3usfJaOcCzoVX=w1000"
     ],
-    descripción: "Cobertura para Revistas en el Auditorio Oeste.",
+    descripcion: "Cobertura para Revistas en el Auditorio Oeste.",
     año: "2025"
   };
 

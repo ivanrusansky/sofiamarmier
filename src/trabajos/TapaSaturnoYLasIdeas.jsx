@@ -6,7 +6,7 @@ function TapaSaturnoYLasIdeas() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/15MHP5UvKMXmVVYigWoAaFQUORSh2V8C-"
     ],
-    descripción: "diseño de tapa para Saturno y Las Ideas",
+    descripcion: "Diseño de tapa para Saturno y Las Ideas",
     año: "2024"
   };
 

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function Crisa2023() {
@@ -6,14 +6,14 @@ function Crisa2023() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1iJB_lUrj4bcPyAkuxv_na7-tukc__FgY"
     ],
-    descripción: "Registro de Cris� en el 2023. Indumentaria realizada por Coty Casolati.",
+    descripcion: "Registro de Crisá en el 2023. Indumentaria realizada por Coty Casolati.",
     año: "2023"
   };
 
   return (
     <TrabajosPage
       categoria="fotografía"
-      titulo="CRIS� 2023"
+      titulo="CRISÁ 2023"
       trabajo={trabajo}
       colorHover="#bbbbbb"
       rutaVolver="/fotografia/sesiones"

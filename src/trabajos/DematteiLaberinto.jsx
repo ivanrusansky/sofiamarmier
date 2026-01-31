@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function DematteiLaberinto() {
@@ -6,7 +6,7 @@ function DematteiLaberinto() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1OSC2t_FqOd-H81g5LtQ8Dtf1Cbev6-rl"
     ],
-    descripción: "Registro de Demattei en Laberinto.",
+    descripcion: "Registro de Demattei en Laberinto.",
     año: "2024"
   };
 

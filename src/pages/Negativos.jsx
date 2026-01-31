@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Negativos() {
@@ -17,7 +17,7 @@ function Negativos() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotograf�a" titulo="NEGATIVOS" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="NEGATIVOS" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Negativos;

@@ -6,7 +6,7 @@ function TapaBrocks() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/112BbyLRb9aAcdOqrzSzWTo6HiLPmAl0Z"
     ],
-    descripción: "diseño de tapa para Brocks",
+    descripcion: "Diseño de tapa para Brocks",
     año: "2024"
   };
 

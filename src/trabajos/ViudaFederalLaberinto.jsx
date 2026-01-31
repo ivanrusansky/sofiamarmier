@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function ViudaFederalLaberinto() {
@@ -6,7 +6,7 @@ function ViudaFederalLaberinto() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1C3tmag-90b8Ww8-o2IEE1gZrDBcrj0Zz=w1000"
     ],
-    descripción: "Cobertura para Viuda Federal en Laberinto. Una fecha muy especial e importante para la banda, ya que fue la primera vez que tocaron en vivo. Esta fecha dio pie a un a�o espectacular para ellos.",
+    descripcion: "Cobertura para Viuda Federal en Laberinto. Una fecha muy especial e importante para la banda, ya que fue la primera vez que tocaron en vivo. Esta fecha dio pie a un año espectacular para ellos.",
     año: "2025"
   };
 

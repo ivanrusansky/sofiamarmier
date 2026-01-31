@@ -4,9 +4,9 @@ import TrabajosPage from "../TrabajosPage";
 function Vol2CicloVidaRnR() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_Música/vol_2_ciclo_vida_rnr/volumen_2_1_jpg"
+      "/flyers_de_musica/vol_2_ciclo_vida_rnr/volumen_2_1_jpg"
     ],
-    descripción: "Flyer para Volumen 2 del Ciclo Vida RnR",
+    descripcion: "Flyer para Volumen 2 del Ciclo Vida RnR",
     año: "2024"
   };
 

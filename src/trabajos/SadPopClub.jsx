@@ -6,7 +6,7 @@ function SadPopClub() {
     imagenes: [
       "/proyectos/shows-en-vivo/sad-pop-club.jpg"
     ],
-    descripción: "Cobertura para Sad Pop Club, productora que trajo a Estoy Bien (CHILE) .",
+    descripcion: "Cobertura para Sad Pop Club, productora que trajo a Estoy Bien (CHILE) .",
     año: "2025"
   };
 

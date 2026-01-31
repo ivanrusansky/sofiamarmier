@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function ViudaFederalSala41() {
@@ -6,7 +6,7 @@ function ViudaFederalSala41() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1ReFK2T5krEDhwsNTkp7zXAG_W0IB6Qs2=w1000"
     ],
-    descripción: "Cobertura para la �ltima fecha del 2025 de Viuda Federal en Sala 41, CABA.",
+    descripcion: "Cobertura para la última fecha del 2025 de Viuda Federal en Sala 41, CABA.",
     año: "2025"
   };
 

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function BrooksLaberinto() {
@@ -6,7 +6,7 @@ function BrooksLaberinto() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1To4npZva-WUbaWFzVrxhFQmHb3R7fbiu"
     ],
-    descripción: "Cobertura para Brooks en Laberinto.",
+    descripcion: "Cobertura para Brooks en Laberinto.",
     año: "2025"
   };
 

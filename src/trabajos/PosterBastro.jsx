@@ -6,7 +6,7 @@ function PosterBastro() {
     imagenes: [
       "/proyectos/posters/bastro.jpg"
     ],
-    descripción: "Póster para BASTRO",
+    descripcion: "Póster para BASTRO",
     año: "2024"
   };
 

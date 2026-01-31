@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function ViudaFederalEstudiosIon() {
@@ -6,7 +6,7 @@ function ViudaFederalEstudiosIon() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1hKSVfHEMdKNyDf0EZLelWFZeFAiOpD_M"
     ],
-    descripción: "Viuda Federal en Estudios ION, CABA. El segundo a�o retratando a unas de las bandas que m�s quiero y admiro. Gracias amigos.",
+    descripcion: "Viuda Federal en Estudios ION, CABA. El segundo año retratando a unas de las bandas que más quiero y admiro. Gracias amigos.",
     año: "2026"
   };
 

@@ -6,7 +6,7 @@ function Resbaladizos() {
     imagenes: [
       "/proyectos/shows-en-vivo/resbaladizos.jpg"
     ],
-    descripción: "Show en vivo de Resbaladizos",
+    descripcion: "Show en vivo de Resbaladizos",
     año: "2024"
   };
 

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Sesiones() {
@@ -35,7 +35,7 @@ function Sesiones() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotograf�a" titulo="SESIONES" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="SESIONES" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Sesiones;

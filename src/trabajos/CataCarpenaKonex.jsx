@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function CataCarpenaKonex() {
@@ -6,7 +6,7 @@ function CataCarpenaKonex() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1MJOkqzLUQlt7l3RBUTLiOnoPYHjjg2QU"
     ],
-    descripción: "Registro de Cata Carpena en el Konex.",
+    descripcion: "Registro de Cata Carpena en el Konex.",
     año: "2025"
   };
 

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function HilarioProserpioShow() {
@@ -6,7 +6,7 @@ function HilarioProserpioShow() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/161Q2R1I9iWzKtd_x3vnX71jmn6M8XBMY"
     ],
-    descripción: "Show en vivo de Hilario Proserpio",
+    descripcion: "Show en vivo de Hilario Proserpio",
     año: "2024"
   };
 

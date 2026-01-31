@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function Babeblade() {
@@ -6,7 +6,7 @@ function Babeblade() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1BL7Q06zVLXcqGGfiaIE_DPkE4TrnthWD"
     ],
-    descripción: "sesión en vivo de Babeblade",
+    descripcion: "Sesión en vivo de Babeblade",
     año: "2024"
   };
 

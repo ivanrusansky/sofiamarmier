@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Grabaciones() {
@@ -18,7 +18,7 @@ function Grabaciones() {
     {
       nombre: "CRISÁ, LA CASONA",
       descripcion: "",
-      imagen: "/proyectos/grabaciones/CRISÁ-la-casona.jpg",
+      imagen: "/proyectos/grabaciones/crisa-la-casona.jpg",
       sinImagen: true,
       ruta: "/trabajo/crisa-la-casona"
     },
@@ -42,7 +42,7 @@ function Grabaciones() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotograf�a" titulo="GRABACIONES" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="GRABACIONES" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Grabaciones;

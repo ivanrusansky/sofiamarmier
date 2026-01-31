@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function NegativosBlancoYNegro() {
@@ -6,7 +6,7 @@ function NegativosBlancoYNegro() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1bFX66pWo13piH3szUbqqcEtekBYVtl9g"
     ],
-    descripción: "Serie fotográfica en blanco y negro",
+    descripcion: "Serie fotográfica en blanco y negro",
     año: "2024"
   };
 

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function EstoyBienCCMatienzo() {
@@ -6,7 +6,7 @@ function EstoyBienCCMatienzo() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1YH64QjWKfzP6grtj51h5jRevp3Rb_Ov-"
     ],
-    descripción: "fotografía en vivo de Estoy Bien en CC Matienzo",
+    descripcion: "Fotografía en vivo de Estoy Bien en CC Matienzo",
     año: "2024"
   };
 

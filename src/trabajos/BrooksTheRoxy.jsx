@@ -4,9 +4,9 @@ import TrabajosPage from "../TrabajosPage";
 function BrooksTheRoxy() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_Música/brooks_the_roxy/pag_1"
+      "/flyers_de_musica/brooks_the_roxy/pag_1"
     ],
-    descripción: "Flyer para Brooks en The Roxy",
+    descripcion: "Flyer para Brooks en The Roxy",
     año: "2024"
   };
 

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function SaturninooYLasIdeasMagdalena() {
@@ -6,7 +6,7 @@ function SaturninooYLasIdeasMagdalena() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1QxZbAefQGJvzYcE1aCtd59peAHMl9WPI"
     ],
-    descripción: "Saturnino y las Ideas en el Estudio Magdalena, Haedo.",
+    descripcion: "Saturnino y las Ideas en el Estudio Magdalena, Haedo.",
     año: "2025"
   };
 

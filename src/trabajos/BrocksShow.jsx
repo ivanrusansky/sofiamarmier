@@ -6,7 +6,7 @@ function BrocksShow() {
     imagenes: [
       "/proyectos/shows-en-vivo/brocks.jpg"
     ],
-    descripción: "Show en vivo de Brocks",
+    descripcion: "Show en vivo de Brocks",
     año: "2024"
   };
 

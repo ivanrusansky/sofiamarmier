@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function ViudaFederalBibliotecaPopular() {
@@ -6,7 +6,7 @@ function ViudaFederalBibliotecaPopular() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1oXk2f0DPyLlw-OHMyEufJX3n1dGzpxmL=w1000"
     ],
-    descripción: "Cobertura para Viuda Federal en la Biblioteca Popular de Ciudad Jard�n.",
+    descripcion: "Cobertura para Viuda Federal en la Biblioteca Popular de Ciudad Jardín.",
     año: "2025"
   };
 

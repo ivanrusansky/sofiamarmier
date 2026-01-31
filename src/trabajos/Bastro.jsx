@@ -4,9 +4,9 @@ import TrabajosPage from "../TrabajosPage";
 function Bastro() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_Música/BASTRO/la_luna_jpg"
+      "/flyers_de_musica/BASTRO/la_luna_jpg"
     ],
-    descripción: "Flyer para el evento de BASTRO",
+    descripcion: "Flyer para el evento de BASTRO",
     año: "2024"
   };
 

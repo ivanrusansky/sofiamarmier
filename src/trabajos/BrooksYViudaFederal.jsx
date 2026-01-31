@@ -4,9 +4,9 @@ import TrabajosPage from "../TrabajosPage";
 function BrooksYViudaFederal() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_Música/brooks_y_viuda_federal/visualizador_1_jpg"
+      "/flyers_de_musica/brooks_y_viuda_federal/visualizador_1_jpg"
     ],
-    descripción: "Flyer para el evento de Brooks y Viuda Federal",
+    descripcion: "Flyer para el evento de Brooks y Viuda Federal",
     año: "2024"
   };
 

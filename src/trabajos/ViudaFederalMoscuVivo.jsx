@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function ViudaFederalMoscuVivo() {
@@ -6,14 +6,14 @@ function ViudaFederalMoscuVivo() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1M1gd3OCogapihhz-Nwzo1Oo4SLxE6ztM=w1000"
     ],
-    descripción: "Cobertura para Viuda Federal en Mosc�.",
+    descripcion: "Cobertura para Viuda Federal en Moscú.",
     año: "2025"
   };
 
   return (
     <TrabajosPage
       categoria="fotografía"
-      titulo="VIUDA FEDERAL MOSC�"
+      titulo="VIUDA FEDERAL MOSCÚ"
       trabajo={trabajo}
       colorHover="#bbbbbb"
       rutaVolver="/fotografia/vivo"

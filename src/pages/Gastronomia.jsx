@@ -1,10 +1,10 @@
-import React from "react";
+﻿import React from "react";
 import ProyectosPage from "../ProyectosPage";
 
 function Gastronomia() {
   const proyectos = [
     {
-      nombre: "BARRIO CAF�",
+      nombre: "BARRIO CAFÉ",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/u/0/d/1_vi5X9oeimvx91xO7EZDvacrBpq0eezN",
       ruta: "/trabajo/barrio-cafe"
@@ -17,7 +17,7 @@ function Gastronomia() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotograf�a" titulo="GASTRONOM�A" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="GASTRONOMÍA" proyectos={proyectos} colorHover="#4b9b6c" />
   );
 }
 export default Gastronomia;

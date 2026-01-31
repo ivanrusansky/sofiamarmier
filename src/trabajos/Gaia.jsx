@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function Gaia() {
@@ -6,7 +6,7 @@ function Gaia() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/17_gu2V5eghmfpXT0imB7d7cNVOrXB2-P"
     ],
-    descripción: "sesión fotográfica de Gaia",
+    descripcion: "Sesión fotográfica de Gaia",
     año: "2024"
   };
 

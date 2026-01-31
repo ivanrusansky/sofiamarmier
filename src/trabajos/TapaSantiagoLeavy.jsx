@@ -6,7 +6,7 @@ function TapaSantiagoLeavy() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1XsVn4-voIkhqAvcU8BGoxLpp6kUKTGra"
     ],
-    descripción: "diseño de tapa para Santiago Leavy",
+    descripcion: "Diseño de tapa para Santiago Leavy",
     año: "2024"
   };
 

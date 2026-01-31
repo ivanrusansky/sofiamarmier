@@ -1,19 +1,19 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
-function ImpSaleOtoño() {
+function ImpSaleOtono() {
   const trabajo = {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1bx-SSsBe1RXi55uaybQhQPf1PBnKFtvK"
     ],
-    descripción: "Sesión de fotos y diseño para la campaña de Otoño - Invierno de Imp Sale. Realizada en Deofi estudio.",
+    descripcion: "Sesión de fotos y diseño para la campaña de Otoño - Invierno de Imp Sale. Realizada en Deofi estudio.",
     año: "2025"
   };
 
   return (
     <TrabajosPage
       categoria="fotografía"
-      titulo="IMP SALE Otoño"
+      titulo="IMP SALE OTOÑO"
       trabajo={trabajo}
       colorHover="#bbbbbb"
       rutaVolver="/fotografia/indumentaria"
@@ -21,4 +21,4 @@ function ImpSaleOtoño() {
   );
 }
 
-export default ImpSaleOtoño;
+export default ImpSaleOtono;

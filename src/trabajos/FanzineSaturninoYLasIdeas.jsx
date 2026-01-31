@@ -6,7 +6,7 @@ function FanzineSaturninoYLasIdeas() {
     imagenes: [
       "/proyectos/fanzine/saturno-y-las-ideas.jpg"
     ],
-    descripción: "Fanzine para Saturnino y Las Ideas",
+    descripcion: "Fanzine para Saturnino y Las Ideas",
     año: "2024"
   };
 

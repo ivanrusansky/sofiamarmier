@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import TrabajosPage from "../TrabajosPage";
 
 function BastroDeltaSound() {
@@ -6,7 +6,7 @@ function BastroDeltaSound() {
     imagenes: [
       "https://lh3.googleusercontent.com/u/0/d/1SZuioC6t4ED2h2a81r9wfNBnmrOOx4-I"
     ],
-    descripción: "Sesión fotográfica de grabación de BASTRO en Delta Sound",
+    descripcion: "Sesión fotográfica de grabación de BASTRO en Delta Sound",
     año: "2024"
   };
 

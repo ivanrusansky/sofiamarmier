@@ -13,7 +13,7 @@ function Tapas() {
       nombre: "BROOKS",
       descripcion: "",
       imagen: "https://lh3.googleusercontent.com/d/112BbyLRb9aAcdOqrzSzWTo6HiLPmAl0Z",
-      ruta: "/trabajo/tapa-brocks"
+      ruta: "/trabajo/tapa-brooks"
     },
     {
       nombre: "SANTIAGO LEAVY",

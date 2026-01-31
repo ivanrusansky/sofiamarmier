@@ -6,7 +6,7 @@ function PosterIndioSolariTandil() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1YCdjQ5izsyG8FfS5HdXO4Fl-roXCQucN"
     ],
-    descripción: "Póster para Indio Solari en Tandil",
+    descripcion: "Póster para Indio Solari en Tandil",
     año: "2024"
   };
 

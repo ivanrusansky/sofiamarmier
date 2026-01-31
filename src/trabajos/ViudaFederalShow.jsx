@@ -6,7 +6,7 @@ function ViudaFederalShow() {
     imagenes: [
       "/proyectos/shows-en-vivo/viuda-federal.jpg"
     ],
-    descripción: "Show en vivo de Viuda Federal",
+    descripcion: "Show en vivo de Viuda Federal",
     año: "2024"
   };
 

@@ -4,9 +4,9 @@ import TrabajosPage from "../TrabajosPage";
 function AdanBuenosAyres() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_Música/adan_buenos_ayres/flyer_jpg"
+      "/flyers_de_musica/adan_buenos_ayres/flyer_jpg"
     ],
-    descripción: "Flyer para Adan Buenos Ayres",
+    descripcion: "Flyer para Adan Buenos Ayres",
     año: "2024"
   };
 

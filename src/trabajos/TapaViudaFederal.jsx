@@ -6,7 +6,7 @@ function TapaViudaFederal() {
     imagenes: [
       "https://lh3.googleusercontent.com/d/1uZd79vyk7JIBBuC1ZEKUhQ8OuNicu9sF"
     ],
-    descripción: "diseño de tapa para Viuda Federal",
+    descripcion: "Diseño de tapa para Viuda Federal",
     año: "2024"
   };
 

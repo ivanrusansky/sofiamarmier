@@ -4,9 +4,9 @@ import TrabajosPage from "../TrabajosPage";
 function BrooksCafeBerlin() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_Música/brooks_cafe_berlin/pag_1"
+      "/flyers_de_musica/brooks_cafe_berlin/pag_1"
     ],
-    descripción: "Flyer para Brooks en Café Berlin",
+    descripcion: "Flyer para Brooks en Café Berlin",
     año: "2024"
   };
 
