@@ -22,7 +22,7 @@ function Vivo() {
         { nombre: "VON FRIX  CAMPING", descripcion: "", imagen: "https://lh3.googleusercontent.com/d/11m0O7wYjmXuP-2YUWCojxS7a2DsYBFyN", ruta: "/trabajo/von-frix-camping" },
     ];
     return (
-        <ProyectosPage categoria="fotografía" titulo="VIVO" proyectos={proyectos} colorHover="#4b9b6c" />
+        <ProyectosPage categoria="fotografía" titulo="VIVO" proyectos={proyectos} colorHover="#5e662f" />
     );
 }
 export default Vivo;

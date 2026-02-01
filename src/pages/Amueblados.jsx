@@ -12,7 +12,7 @@ function Amueblados() {
     }
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="AMUEBLADOS" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="AMUEBLADOS" proyectos={proyectos} colorHover="#5e662f" />
   );
 }
 export default Amueblados;

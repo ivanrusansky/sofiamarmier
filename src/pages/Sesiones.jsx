@@ -35,7 +35,7 @@ function Sesiones() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="SESIONES" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="SESIONES" proyectos={proyectos} colorHover="#5e662f" />
   );
 }
 export default Sesiones;

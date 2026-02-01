@@ -17,7 +17,7 @@ function Negativos() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="NEGATIVOS" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="NEGATIVOS" proyectos={proyectos} colorHover="#5e662f" />
   );
 }
 export default Negativos;

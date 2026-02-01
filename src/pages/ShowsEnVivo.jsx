@@ -39,7 +39,7 @@ function ShowsEnVivo() {
     },
   ];
   return (
-    <ProyectosPage categoria="audiovisual" titulo="SHOWS EN VIVO" proyectos={proyectos} colorHover="#e53935" />
+    <ProyectosPage categoria="audiovisual" titulo="SHOWS EN VIVO" proyectos={proyectos} colorHover="#8b2b29" />
   );
 }
 export default ShowsEnVivo;

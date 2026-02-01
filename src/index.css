@@ -47,6 +47,13 @@
   letter-spacing: 0.5px;
 }
 
+.acercademi-button-container {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  z-index: 100;
+}
+
 .video-pc {
   display: block;
   position: fixed;
@@ -265,7 +272,7 @@ body {
 }
 
 .submenu-item.photo-sub:hover {
-  color: #4b9b6c;
+  color: #809411;
 }
 
 .submenu-item.audio-sub:hover {

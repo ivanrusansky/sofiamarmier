@@ -1,11 +1,19 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./TrabajosPage.css";
+import MasInfo from "./components/MasInfo";
 
 function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const getSubMenuType = (ruta) => {
+    if (ruta.includes('diseno-grafico')) return 'diseno';
+    if (ruta.includes('fotografia')) return 'fotografia';
+    if (ruta.includes('audiovisual')) return 'audiovisual';
+    return null;
+  };
 
   return (
     <>
@@ -15,10 +23,18 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
         </Link>
         <ul>
           <li>
-            <Link to={rutaVolver} className="navbar-proyectos">[volver]</Link>
+            <Link 
+              to={rutaVolver} 
+              state={{ openMenu: true, openSubMenu: getSubMenuType(rutaVolver) }}
+              className="navbar-proyectos"
+            >
+              [volver]
+            </Link>
           </li>
         </ul>
       </nav>
+
+      <MasInfo titulo={titulo} trabajo={trabajo} />
 
       <div className="trabajo-container">
         <div className="trabajo-contenido">
@@ -37,51 +53,13 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
             </div>
           )}
 
-          <div className="trabajo-info-contenedor">
-            <div className="trabajo-header">
-              <h1 className="trabajo-titulo">{titulo}</h1>
-            </div>
-
-            {trabajo.descripcion && (
-              <div className="trabajo-descripcion">
-                <p>{trabajo.descripcion}</p>
-              </div>
-            )}
-
-            {trabajo.cliente && (
-              <div className="trabajo-info-item">
-                <h3>Cliente</h3>
-                <p>{trabajo.cliente}</p>
-              </div>
-            )}
-
-            {trabajo.año && (
-              <div className="trabajo-info-item trabajo-año">
-                <span className="año-label">año</span>
-                <span className="año-numero">{trabajo.año}</span>
-              </div>
-            )}
-
-            {trabajo.tecnicas && trabajo.tecnicas.length > 0 && (
-              <div className="trabajo-info-item">
-                <h3>Técnicas</h3>
-                <ul>
-                  {trabajo.tecnicas.map((tecnica, index) => (
-                    <li key={index}>{tecnica}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {trabajo.info && (
-              <div className="trabajo-info-adicional">
-                {trabajo.info}
-              </div>
-            )}
-          </div>
-
           <div className="trabajo-footer">
-            <Link to={rutaVolver} className="btn-volver" style={{ '--hover-color': colorHover }}>
+            <Link 
+              to={rutaVolver} 
+              state={{ openMenu: true, openSubMenu: getSubMenuType(rutaVolver) }}
+              className="btn-volver" 
+              style={{ '--hover-color': colorHover }}
+            >
               volver a {categoria.toLowerCase()}
             </Link>
           </div>

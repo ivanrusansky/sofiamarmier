@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './index.css'
 import Index from './Index.jsx'
+import AcercaDeMi from './components/AcercaDeMi.jsx'
 import Fanzine from './pages/Fanzine.jsx'
 import FlyersDeMusica from './pages/FlyersDeMusica.jsx'
 import Posters from './pages/Posters.jsx'
@@ -209,6 +210,9 @@ createRoot(document.getElementById('root')).render(
         <Route path="/trabajo/resbaladizos" element={<Resbaladizos />} />
         <Route path="/trabajo/sad-pop-club" element={<SadPopClub />} />
         <Route path="/trabajo/viuda-federal-show" element={<ViudaFederalShow />} />
+        
+        {/* Ruta acerca de mí */}
+        <Route path="/acercademi" element={<AcercaDeMi />} />
       </Routes>
     </Router>
   </StrictMode>,

@@ -1,0 +1,242 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
+
+.masinfo-container {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  z-index: 900;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.masinfo-tab {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  background-color: #000;
+  color: #f5f5f5;
+  border: none;
+  cursor: pointer;
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.masinfo-tab:hover {
+  background-color: #333;
+}
+
+.masinfo-tab-text {
+  line-height: 1;
+  user-select: none;
+}
+
+.masinfo-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  max-height: calc(100vh - 60px);
+  background-color: #f5f5f5;
+  border-left: 1px solid #ddd;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  overflow-y: auto;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.masinfo-open .masinfo-content {
+  width: 420px;
+}
+
+.masinfo-text {
+  padding: 3rem 2.5rem;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.masinfo-open .masinfo-text {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Header */
+.masinfo-header {
+  margin-bottom: 0;
+}
+
+.masinfo-titulo {
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #050505;
+}
+
+/* Descripción */
+.masinfo-descripcion {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+.masinfo-descripcion p {
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  opacity: 0.8;
+  color: #313131;
+  margin: 0;
+}
+
+/* Info items */
+.masinfo-info-item {
+  margin: 0;
+}
+
+.masinfo-info-item h3 {
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  opacity: 0.75;
+  color: #0c0c0c;
+}
+
+.masinfo-info-item p {
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  color: #313131;
+  margin: 0;
+}
+
+.masinfo-info-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.masinfo-info-item ul li {
+  padding: 0.4rem 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  color: #313131;
+}
+
+.masinfo-info-item ul li::before {
+  content: "• ";
+  margin-right: 0.5rem;
+}
+
+/* Año */
+.masinfo-año {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.año-label {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #666;
+  opacity: 0.8;
+}
+
+.año-numero {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0c0c0c;
+}
+
+/* Info adicional */
+.masinfo-info-adicional {
+  margin: 0;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-left: 3px solid #000;
+  border-radius: 4px;
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #313131;
+  opacity: 0.85;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .masinfo-container {
+    top: 48px;
+  }
+
+  .masinfo-tab {
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
+  }
+
+  .masinfo-content {
+    max-height: calc(100vh - 48px);
+  }
+
+  .masinfo-open .masinfo-content {
+    width: 320px;
+  }
+
+  .masinfo-text {
+    padding: 2rem 1.5rem;
+  }
+
+  .masinfo-titulo {
+    font-size: 1.8rem;
+  }
+
+  .masinfo-descripcion p {
+    font-size: 0.95rem;
+  }
+
+  .masinfo-info-item h3 {
+    font-size: 1rem;
+  }
+
+  .masinfo-info-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .masinfo-open .masinfo-content {
+    width: 100vw;
+    border-left: none;
+  }
+
+  .masinfo-tab {
+    width: 36px;
+    height: 36px;
+    font-size: 1.2rem;
+  }
+
+  .masinfo-text {
+    padding: 1.5rem 1rem;
+  }
+
+  .masinfo-titulo {
+    font-size: 1.5rem;
+  }
+}

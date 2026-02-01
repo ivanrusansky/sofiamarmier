@@ -1,11 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./index.css";
 
 function Index() {
+  const location = useLocation();
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [subMenuOpen, setSubMenuOpen] = useState(false);
   const [photoMenuOpen, setPhotoMenuOpen] = useState(false);
   const [audioMenuOpen, setAudioMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (location.state?.openMenu) {
+      setDropdownOpen(true);
+      if (location.state?.openSubMenu === 'diseno') {
+        setSubMenuOpen(true);
+      } else if (location.state?.openSubMenu === 'fotografia') {
+        setPhotoMenuOpen(true);
+      } else if (location.state?.openSubMenu === 'audiovisual') {
+        setAudioMenuOpen(true);
+      }
+    }
+  }, [location]);
 
   return (
     <>
@@ -19,6 +34,12 @@ function Index() {
           </li>
         </ul>
       </nav>
+
+      <div className="acercademi-button-container">
+        <Link to="/acercademi" className="navbar-proyectos">
+          [acerca de mí]
+        </Link>
+      </div>
 
       {dropdownOpen && (
         <div className="fullscreen-menu" onClick={() => setDropdownOpen(false)}>

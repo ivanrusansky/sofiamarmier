@@ -1,0 +1,159 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
+
+/* Página Acerca de Mí */
+.acercademi-page {
+  min-height: 100vh;
+  background: #ffffff;
+  padding-top: 60px;
+}
+
+.acercademi-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* Imagen */
+
+.acercademi-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 3rem auto;
+  object-fit: cover;
+  background: linear-gradient(
+    90deg,
+    #d4d4d4 0%,
+    #ececec 25%,
+    #f8f8f8 50%,
+    #ececec 75%,
+    #d4d4d4 100%
+  );
+  background-size: 400% 100%;
+  animation: shimmerAcerca 2.5s ease-in-out infinite;
+  opacity: 0;
+  filter: blur(8px);
+  transform: scale(1.05);
+  transition: opacity 1s ease-out, filter 0.8s ease-out, transform 1s ease-out;
+}
+
+.acercademi-img.loaded {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+
+@keyframes shimmerAcerca {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+/* Contenido */
+
+.acercademi-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+.acercademi-texto > * {
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateY(20px);
+  animation: fadeInTextAcerca 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+.acercademi-texto > *:nth-child(1) { animation-delay: 0.4s; }
+.acercademi-texto > *:nth-child(2) { animation-delay: 0.5s; }
+.acercademi-texto > *:nth-child(3) { animation-delay: 0.6s; }
+.acercademi-texto > *:nth-child(4) { animation-delay: 0.7s; }
+.acercademi-texto > *:nth-child(5) { animation-delay: 0.8s; }
+
+@keyframes fadeInTextAcerca {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 0.5;
+    filter: blur(4px);
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+.acercademi-texto {
+  font-family: 'Satoshi', system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.acercademi-texto p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #313131;
+  opacity: 0.85;
+  margin: 0;
+  text-align: left;
+}
+
+.acercademi-despedida {
+  margin-top: 1rem !important;
+  font-style: italic;
+  opacity: 0.75 !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .acercademi-page {
+    padding-top: 48px;
+    padding-bottom: 80px;
+  }
+
+  .acercademi-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .acercademi-img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .acercademi-titulo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .acercademi-texto {
+    gap: 1.2rem;
+  }
+
+  .acercademi-texto p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 480px) {
+  .acercademi-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .acercademi-titulo {
+    font-size: 1.7rem;
+  }
+
+  .acercademi-texto p {
+    font-size: 0.95rem;
+  }
+}

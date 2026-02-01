@@ -23,7 +23,7 @@ function Indumentaria() {
     },
   ];
   return (
-    <ProyectosPage categoria="fotografía" titulo="INDUMENTARIA" proyectos={proyectos} colorHover="#4b9b6c" />
+    <ProyectosPage categoria="fotografía" titulo="INDUMENTARIA" proyectos={proyectos} colorHover="#5e662f" />
   );
 }
 export default Indumentaria;
