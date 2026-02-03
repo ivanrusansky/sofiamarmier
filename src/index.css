@@ -48,6 +48,7 @@
 }
 
 .acercademi-button-container {
+  background-color: #fff;
   position: fixed;
   bottom: 3%;
   right: 3%;
@@ -139,7 +140,7 @@ body {
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   box-sizing: border-box;
 }
 
@@ -155,23 +156,21 @@ body {
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  gap: 2rem;
-  margin: 0 1rem 0 0;
-  padding: 1%;
+  gap: 0;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
   font-size: 0.9rem;
+  padding-right: 3%;
 }
 
 .navbar ul li {
   list-style: none;
-  margin-right: 0.7rem;
+  margin-right: 0;
 }
 
 .navbar ul li:last-child {
-  margin-right: 1.2rem;
-}
-
-.navbar ul {
-  padding-left: 0;
+  margin-right: 0;
 }
 
 .fullscreen-menu {
@@ -358,7 +357,7 @@ body {
   .navbar {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0.5rem 0;
     min-height: 48px;
   }
@@ -370,13 +369,23 @@ body {
   }
 
   .navbar ul {
-    gap: 1rem;
-    margin: 0 1rem 0 0;
-    padding: 0.5rem 0;
+    gap: 0;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 3%;
+  }
+
+  .navbar ul li {
+    margin: 0;
+  }
+
+  .navbar ul li:last-child {
+    margin: 0;
   }
 
   .navbar a {

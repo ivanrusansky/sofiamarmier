@@ -219,7 +219,7 @@
   background: none !important;
   border: none !important;
   padding: 0 !important;
-  margin: 0 1.2rem 0 0 !important;
+  margin: 0 !important;
   cursor: pointer !important;
   transition: color 0.2s !important;
 }
