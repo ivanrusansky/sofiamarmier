@@ -1,11 +1,20 @@
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
 
+@keyframes pulseMasInfo {
+  0%, 100% {
+    background-color: #000;
+  }
+  50% {
+    background-color: #9b9b9b;
+  }
+}
+
 .masinfo-container {
   position: fixed;
   top: 60px;
   right: 0;
   z-index: 900;
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .masinfo-tab {
@@ -22,21 +31,33 @@
   font-size: 1.5rem;
   font-weight: 300;
   letter-spacing: 0;
-  transition: all 0.3s ease;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
+  border-radius: 0;
+  animation: pulseMasInfo 4s ease-in-out infinite;
+}
+
+.masinfo-open .masinfo-tab {
+  animation: none;
 }
 
 .masinfo-tab:hover {
   background-color: #333;
+  transform: scale(1.05);
 }
 
 .masinfo-tab-text {
   line-height: 1;
   user-select: none;
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.masinfo-open .masinfo-tab-text {
+  transform: rotate(90deg);
 }
 
 .masinfo-content {
@@ -44,24 +65,35 @@
   top: 0;
   right: 0;
   width: 0;
+  height: 100%;
   max-height: calc(100vh - 60px);
+  min-height: calc(40vh - 60px);
   background-color: #f5f5f5;
   border-left: 1px solid #ddd;
-  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.08);
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0);
   overflow: hidden;
   overflow-y: auto;
-  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: width 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.35s,
+              box-shadow 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.35s,
+              backdrop-filter 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.35s;
+  transform-origin: right center;
+  border-radius: 0;
+  backdrop-filter: blur(0px);
 }
 
 .masinfo-open .masinfo-content {
   width: 420px;
+  box-shadow: -8px 0 32px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(10px);
+  transition-delay: 0s;
 }
 
 .masinfo-text {
   padding: 3rem 2.5rem;
   opacity: 0;
-  transform: translateX(20px);
-  transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+  transform: translateX(30px) scale(0.95);
+  transition: opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -69,7 +101,8 @@
 
 .masinfo-open .masinfo-text {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateX(0) scale(1);
+  transition-delay: 0.5s;
 }
 
 /* Header */
@@ -85,6 +118,16 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: #050505;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.masinfo-open .masinfo-titulo {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.6s;
 }
 
 /* Descripción */
@@ -99,14 +142,33 @@
   font-family: 'Satoshi', system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.7;
-  opacity: 0.8;
+  opacity: 0;
   color: #313131;
   margin: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.05s,
+              transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.05s;
+}
+
+.masinfo-open .masinfo-descripcion p {
+  opacity: 0.8;
+  transform: translateY(0);
+  transition-delay: 0.75s;
 }
 
 /* Info items */
 .masinfo-info-item {
   margin: 0;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s,
+              transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s;
+}
+
+.masinfo-open .masinfo-info-item {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.9s;
 }
 
 .masinfo-info-item h3 {
@@ -176,23 +238,35 @@
   font-size: 0.95rem;
   line-height: 1.7;
   color: #313131;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s,
+              transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s;
+}
+
+.masinfo-open .masinfo-info-adicional {
   opacity: 0.85;
+  transform: translateY(0);
+  transition-delay: 1.05s;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
+
   .masinfo-container {
-    top: 48px;
+    top: 60px;
   }
 
   .masinfo-tab {
-    width: 40px;
-    height: 40px;
-    font-size: 1.3rem;
+    width: 90px;
+    height: 90px;
+    font-size: 2.2rem;
+    top: 0;
   }
 
   .masinfo-content {
-    max-height: calc(100vh - 48px);
+    max-height: calc(100vh - 68px);
+    top: 0;
   }
 
   .masinfo-open .masinfo-content {
