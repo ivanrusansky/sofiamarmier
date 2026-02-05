@@ -45,7 +45,9 @@ function TrabajosPage({ categoria, titulo, trabajo, colorHover, rutaVolver }) {
                   <img
                     src={imagen}
                     alt={`${titulo} - imagen ${index + 1}`}
-                    onLoad={(e) => { e.target.classList.add('loaded'); }}
+                    onLoad={(e) => {
+                      e.target.classList.add('loaded');
+                    }}
                     onError={(e) => { e.target.style.display = 'none'; }}
                   />
                 </div>
