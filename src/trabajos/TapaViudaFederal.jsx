@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaViudaFederal() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1uZd79vyk7JIBBuC1ZEKUhQ8OuNicu9sF"
+      "/trabajosimg/DISEÑO GRÁFICO/TAPAS/VIUDA FEDERAL/TAPA FINAL.webp"
     ],
     descripcion: "Diseño de tapa para Viuda Federal",
     año: "2024"

@@ -4,7 +4,8 @@ import TrabajosPage from "../TrabajosPage";
 function ViudaFederalMarcosGabaYGelo() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_marcos_gaba_y_gelo/flyer_1_png"
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL, MARCOS GABA Y GELO/FLYER 1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL, MARCOS GABA Y GELO/FLYER 2.webp"
     ],
     descripcion: "Flyer para Viuda Federal, Marcos Gaba y Gelo",
     año: "2024"

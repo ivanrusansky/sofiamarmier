@@ -4,7 +4,8 @@ import TrabajosPage from "../TrabajosPage";
 function TapaBastro() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1sWXAt5dyYSJz0qj-OWbKhZExF9JlNgsq"
+      "/trabajosimg/DISEÑO GRÁFICO/TAPAS/BASTRO/CORTE MAR DE MIEL.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TAPAS/BASTRO/EP LA LUNA.webp"
     ],
     descripcion: "Diseño de tapa para BASTRO",
     año: "2024"

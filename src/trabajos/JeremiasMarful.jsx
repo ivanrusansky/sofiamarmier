@@ -4,7 +4,10 @@ import TrabajosPage from "../TrabajosPage";
 function JeremiasMarful() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1BwRNLk2jGestsO3N_obsATQ_Q48IQlyj=w1000"
+      "/trabajosimg/FOTOGRAFÍA/VIVO/JEREMÍAS MARFUL/JEREMÍAS MARFUL (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/JEREMÍAS MARFUL/JEREMÍAS MARFUL (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/JEREMÍAS MARFUL/JEREMÍAS MARFUL (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/JEREMÍAS MARFUL/JEREMÍAS MARFUL (4).webp"
     ],
     descripcion: "Registro de Jeremías Marful en el Teatro Helios en el marco del festival RAMBLA.",
     año: "2023"

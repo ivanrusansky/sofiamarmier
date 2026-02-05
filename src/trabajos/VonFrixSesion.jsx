@@ -4,7 +4,10 @@ import TrabajosPage from "../TrabajosPage";
 function VonFrixSesion() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1xAN9t46LyLFoGo1b74WGaWmR9BuWKIyi"
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/VON FRIX/1.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/VON FRIX/2.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/VON FRIX/3.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/VON FRIX/4.webp"
     ],
     descripcion: "Sesión en vivo de Von Frix",
     año: "2024"

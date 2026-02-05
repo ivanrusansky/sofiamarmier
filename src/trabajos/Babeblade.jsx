@@ -4,7 +4,12 @@ import TrabajosPage from "../TrabajosPage";
 function Babeblade() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1BL7Q06zVLXcqGGfiaIE_DPkE4TrnthWD"
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/BABEBLADE/1.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/BABEBLADE/2.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/BABEBLADE/3.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/BABEBLADE/4.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/BABEBLADE/HISTORIAS.webp",
+      "/trabajosimg/AUDIOVISUAL/SESIONES EN VIVO/BABEBLADE/HISTORIAS 2.webp"
     ],
     descripcion: "Sesión en vivo de Babeblade",
     año: "2024"

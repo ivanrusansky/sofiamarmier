@@ -4,7 +4,12 @@ import TrabajosPage from "../TrabajosPage";
 function ViudaFederal2025() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_2025/intento_3_jpg"
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL 2025/BENJA_.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL 2025/FACU.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL 2025/INTENTO 2.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL 2025/INTENTO 3.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL 2025/MANU.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL 2025/SAI.webp"
     ],
     descripcion: "Flyer para Viuda Federal 2025",
     año: "2025"

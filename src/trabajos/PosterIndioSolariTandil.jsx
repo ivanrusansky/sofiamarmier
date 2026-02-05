@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function PosterIndioSolariTandil() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1YCdjQ5izsyG8FfS5HdXO4Fl-roXCQucN"
+      "/trabajosimg/DISEÑO GRÁFICO/POSTERS/INDIO SOLARI TANDIL/INDIO SOLARI DIARIO.webp"
     ],
     descripcion: "Póster para Indio Solari en Tandil",
     año: "2024"

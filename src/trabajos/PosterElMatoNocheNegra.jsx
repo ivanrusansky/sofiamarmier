@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function PosterElMatoNocheNegra() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1s7gghIWP1_0Jycyr4DIYYZJnipfQMalB"
+      "/trabajosimg/DISEÑO GRÁFICO/POSTERS/EL MATÓ - NOCHE NEGRA/NOCHE NEGRA EL MATÓ.webp"
     ],
     descripcion: "Póster para El Mato - Noche Negra",
     año: "2024"

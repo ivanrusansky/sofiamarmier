@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function SantiagoLeavyQuinteto() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/santiago_leavy_quinteto/flyer_jpg"
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/SANTIAGO LEAVY QUINTETO/FLYER.webp"
     ],
     descripcion: "Flyer para Santiago Leavy Quinteto",
     año: "2024"

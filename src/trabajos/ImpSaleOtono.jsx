@@ -4,7 +4,20 @@ import TrabajosPage from "../TrabajosPage";
 function ImpSaleOtono() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1bx-SSsBe1RXi55uaybQhQPf1PBnKFtvK"
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (5).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (6).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (7).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (8).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (9).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (10).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (11).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (12).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (13).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (14).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (15).webp",
+      "/trabajosimg/FOTOGRAFÍA/INDUMENTARIA/IMP SALE OTOÑO/IMPSALE (16).webp"
     ],
     descripcion: "Sesión de fotos y diseño para la campaña de Otoño - Invierno de Imp Sale. Realizada en Deofi estudio.",
     año: "2025"

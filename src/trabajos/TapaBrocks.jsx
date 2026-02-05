@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaBrocks() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/112BbyLRb9aAcdOqrzSzWTo6HiLPmAl0Z"
+      "/trabajosimg/DISEÑO GRÁFICO/TAPAS/BROOKS/NETC TAPA.webp"
     ],
     descripcion: "Diseño de tapa para Brocks",
     año: "2024"

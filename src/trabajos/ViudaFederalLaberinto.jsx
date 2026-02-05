@@ -4,7 +4,26 @@ import TrabajosPage from "../TrabajosPage";
 function ViudaFederalLaberinto() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1C3tmag-90b8Ww8-o2IEE1gZrDBcrj0Zz=w1000"
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (4).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (5).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (6).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (7).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (8).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (9).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (10).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (11).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (12).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (13).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (14).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (15).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (16).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (17).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (18).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (19).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/VIUDA FEDERAL LABERINTO/VIUDA FEDERAL LABERINTO (20).webp"
     ],
     descripcion: "Cobertura para Viuda Federal en Laberinto. Una fecha muy especial e importante para la banda, ya que fue la primera vez que tocaron en vivo. Esta fecha dio pie a un año espectacular para ellos.",
     año: "2025"

@@ -4,7 +4,8 @@ import TrabajosPage from "../TrabajosPage";
 function ViudaFederalLopsisYToroRoi() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_lopsis_y_toro_roi/flyer_3_png"
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL, LOPSIS Y TORO ROI/FLYER (3).webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL, LOPSIS Y TORO ROI/FLYER (4).webp"
     ],
     descripcion: "Flyer para Viuda Federal, Lopsis y Toro Roi",
     año: "2024"

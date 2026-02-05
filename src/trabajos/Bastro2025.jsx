@@ -4,7 +4,21 @@ import TrabajosPage from "../TrabajosPage";
 function Bastro2025() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1RSwP-AWn_dAsp9qBxQocrU77_EDbHRnd"
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (4).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (5).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (6).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (7).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (8).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (9).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (10).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (11).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (12).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (13).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (14).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/BASTRO 2025/BASTRO (15).webp"
     ],
     descripcion: "Fotos express realizadas para Bastro. Un domingo a la mañana nos metimos en un terreno abandonado de nuestro barrio y realizamos estas fotos.",
     año: "2025"

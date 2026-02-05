@@ -4,7 +4,10 @@ import TrabajosPage from "../TrabajosPage";
 function Gaia() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/17_gu2V5eghmfpXT0imB7d7cNVOrXB2-P"
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/GAIA/GAIA (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/GAIA/GAIA (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/GAIA/GAIA (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/GAIA/GAIA (4).webp"
     ],
     descripcion: "Sesión fotográfica de Gaia",
     año: "2024"

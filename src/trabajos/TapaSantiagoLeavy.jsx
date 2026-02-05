@@ -4,7 +4,8 @@ import TrabajosPage from "../TrabajosPage";
 function TapaSantiagoLeavy() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1XsVn4-voIkhqAvcU8BGoxLpp6kUKTGra"
+      "/trabajosimg/DISEÑO GRÁFICO/TAPAS/SANTIAGO LEAVY/tapa.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TAPAS/SANTIAGO LEAVY/contra (1).webp"
     ],
     descripcion: "Diseño de tapa para Santiago Leavy",
     año: "2024"

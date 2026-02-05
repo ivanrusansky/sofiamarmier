@@ -4,7 +4,11 @@ import TrabajosPage from "../TrabajosPage";
 function HilarioProserpioShow() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/161Q2R1I9iWzKtd_x3vnX71jmn6M8XBMY"
+      "/trabajosimg/AUDIOVISUAL/SHOWS EN VIVO/HILARIO PROSERPIO/PRIMERA IMAGEN.webp",
+      "/trabajosimg/AUDIOVISUAL/SHOWS EN VIVO/HILARIO PROSERPIO/DISEÑO GRÁFICO (1).webp",
+      "/trabajosimg/AUDIOVISUAL/SHOWS EN VIVO/HILARIO PROSERPIO/DISEÑO GRÁFICO (2).webp",
+      "/trabajosimg/AUDIOVISUAL/SHOWS EN VIVO/HILARIO PROSERPIO/DISEÑO GRÁFICO (3).webp",
+      "/trabajosimg/AUDIOVISUAL/SHOWS EN VIVO/HILARIO PROSERPIO/DISEÑO GRÁFICO (4).webp"
     ],
     descripcion: "Show en vivo de Hilario Proserpio",
     año: "2024"

@@ -4,7 +4,9 @@ import TrabajosPage from "../TrabajosPage";
 function ViudaFederalYKons() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_y_kons/flyer_3_jpg"
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL Y KONS/FLYER 1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL Y KONS/FLYER 3.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL Y KONS/VISUALIZADOR_.webp"
     ],
     descripcion: "Flyer para Viuda Federal y Kons",
     año: "2024"

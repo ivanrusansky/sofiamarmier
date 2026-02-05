@@ -4,7 +4,8 @@ import TrabajosPage from "../TrabajosPage";
 function ViudaFederalPreEscucha() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/viuda_federal_pre_escucha/flyer_1_png"
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL PRE ESCUCHA/FLYER (1).webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VIUDA FEDERAL PRE ESCUCHA/FLYER (2).webp"
     ],
     descripcion: "Flyer para Pre-escucha de Viuda Federal",
     año: "2024"

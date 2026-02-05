@@ -4,7 +4,20 @@ import TrabajosPage from "../TrabajosPage";
 function Crisa2023() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1iJB_lUrj4bcPyAkuxv_na7-tukc__FgY"
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (4).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (5).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (6).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (7).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (8).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (9).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (10).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (11).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (12).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (13).webp",
+      "/trabajosimg/FOTOGRAFÍA/SESIÓNES/CRISÁ 2023/CRISÁ 2023 (14).webp"
     ],
     descripcion: "Registro de Crisá en el 2023. Indumentaria realizada por Coty Casolati.",
     año: "2023"

@@ -4,7 +4,18 @@ import TrabajosPage from "../TrabajosPage";
 function BrooksLaberinto() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1To4npZva-WUbaWFzVrxhFQmHb3R7fbiu"
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (4).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (5).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (6).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (7).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (8).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (9).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (10).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (11).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/BROOKS LABERINTO/BROOKS LABERINTO (12).webp"
     ],
     descripcion: "Cobertura para Brooks en Laberinto.",
     año: "2025"

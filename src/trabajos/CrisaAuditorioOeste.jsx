@@ -4,7 +4,22 @@ import TrabajosPage from "../TrabajosPage";
 function CrisaAuditorioOeste() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1ViyYU0mS8Qtf8nWiare1-WayOm46gAuW"
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (4).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (5).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (6).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (7).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (8).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (9).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (10).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (11).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (12).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (13).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (14).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (15).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/CRISÁ AUDITORIO OESTE/CRISÁ AUDITORIO OESTE (16).webp"
     ],
     descripcion: "Cobertura para Crisá en el Auditorio Oeste.",
     año: "2025"

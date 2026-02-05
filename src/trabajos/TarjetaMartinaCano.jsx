@@ -4,7 +4,10 @@ import TrabajosPage from "../TrabajosPage";
 function TarjetaMartinaCano() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/1o3oITXnvfUkb2S_wQZvv3YN9BHKvgZk6"
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/MARTINA CANO/OP.1_PÁG 1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/MARTINA CANO/OP.1_PÁG 2.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/MARTINA CANO/OP.2_PÁG 1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/MARTINA CANO/OP.2_PÁG 2.webp"
     ],
     descripcion: "Diseño de tarjeta personal para Martina Cano",
     año: "2024"

@@ -4,7 +4,8 @@ import TrabajosPage from "../TrabajosPage";
 function Vol4CicloVidaRnR() {
   const trabajo = {
     imagenes: [
-      "/flyers_de_musica/vol_4_ciclo_vida_rnr/volumen_4_1_jpg"
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VOL.4 CICLO VIDA RNR/VOLUMEN 4_1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/FLYERS DE MÚSICA/VOL.4 CICLO VIDA RNR/VOLUMEN 4_2.webp"
     ],
     descripcion: "Flyer para Volumen 4 del Ciclo Vida RnR",
       año: "2024"

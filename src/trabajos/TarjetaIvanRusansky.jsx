@@ -4,7 +4,18 @@ import TrabajosPage from "../TrabajosPage";
 function TarjetaIvanRusansky() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/10mlk7vUYqmJ-RttFPI5PYV3Flv0p1w7E"
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/DESARROLLO WEB.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/DESARROLLOWEB_HISTORIAS 1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/DESARROLLOWEB_HISTORIAS 2.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/DESARROLLOWEB_HISTORIAS 3.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/DESARROLLOWEB_HISTORIAS 4.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/FOTOGRAFÍA.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/FOTOGRAFÍA_HISTORIAS 1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/FOTOGRAFÍA_HISTORIAS 2.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/FOTOGRAFÍA_HISTORIAS 3.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/FOTOGRAFÍA_HISTORIAS 4.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/VISUALIZADOR 1.webp",
+      "/trabajosimg/DISEÑO GRÁFICO/TARJETAS/IVÁN RUSANSKY/VISUALIZADOR 2.webp"
     ],
     descripcion: "Diseño de tarjeta personal para Iván Rusansky",
     año: "2024"

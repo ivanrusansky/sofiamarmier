@@ -4,7 +4,15 @@ import TrabajosPage from "../TrabajosPage";
 function DematteiLaberinto() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/u/0/d/1OSC2t_FqOd-H81g5LtQ8Dtf1Cbev6-rl"
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (1).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (2).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (3).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (4).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (5).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (6).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (7).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (8).webp",
+      "/trabajosimg/FOTOGRAFÍA/VIVO/DEMATTEI LABERINTO/DEMATTEI LABERINTO (9).webp"
     ],
     descripcion: "Registro de Demattei en Laberinto.",
     año: "2024"

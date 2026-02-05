@@ -4,7 +4,7 @@ import TrabajosPage from "../TrabajosPage";
 function TapaSaturnoYLasIdeas() {
   const trabajo = {
     imagenes: [
-      "https://lh3.googleusercontent.com/d/15MHP5UvKMXmVVYigWoAaFQUORSh2V8C-"
+      "/trabajosimg/DISEÑO GRÁFICO/TAPAS/SATURNINO Y LAS IDEAS/SPOTIFY 1.webp"
     ],
     descripcion: "Diseño de tapa para Saturno y Las Ideas",
     año: "2024"
